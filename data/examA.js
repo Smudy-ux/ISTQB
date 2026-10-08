@@ -528,7 +528,7 @@ window.EXAMS.A = {
     },
     {
      "letter": "d",
-     "text": "Failures found should be acknowledged, appreciated, and handled objectively Version 1.7"
+     "text": "Failures found should be acknowledged, appreciated, and handled objectively"
     }
    ],
    "answer": "d",
@@ -673,7 +673,7 @@ window.EXAMS.A = {
     },
     {
      "letter": "d",
-     "text": "3 Version 1.7"
+     "text": "3"
     }
    ],
    "answer": "d",
@@ -1534,7 +1534,7 @@ window.EXAMS.A = {
     }
    ],
    "answer": "d",
-   "explanation": "<p>Consider:\n\ni. These behaviors are easily detectable while the software is running.\n\nHence, dynamic testing shall be used to identify them\n\nii. This is an example of deviations from standards, which is a typical\n\ndefect that is easier found with static testing\n\niii. If the software is executed during the test, it is dynamic testing\n\niv. Identifying defects as early as possible is the test objective of both\n\nstatic testing and dynamic testing\n\nv. This is an example of gaps in the test basis traceability or coverage,\n\nwhich is a typical defect that is easier found with static testing</p>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is not correct\nVersion 1.7</strong></p>\n<p><strong>b) Is not correct                                                                                               Release April 1, 2025</strong></p>\n<p><strong>c) Is not correct</strong></p>\n<p><strong>d) Is correct</strong></p>"
+   "explanation": "<p>Consider:\n\ni. These behaviors are easily detectable while the software is running.\n\nHence, dynamic testing shall be used to identify them\n\nii. This is an example of deviations from standards, which is a typical\n\ndefect that is easier found with static testing\n\niii. If the software is executed during the test, it is dynamic testing\n\niv. Identifying defects as early as possible is the test objective of both\n\nstatic testing and dynamic testing\n\nv. This is an example of gaps in the test basis traceability or coverage,\n\nwhich is a typical defect that is easier found with static testing</p>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is not correct</strong></p>\n<p><strong>b) Is not correct</strong></p>\n<p><strong>c) Is not correct</strong></p>\n<p><strong>d) Is correct</strong></p>"
   },
   {
    "n": "A13",
@@ -1592,7 +1592,7 @@ window.EXAMS.A = {
     }
    ],
    "answer": "b",
-   "explanation": "<p>Page 33 of 38</p>\n<p><strong>a) Is not correct. This is the task of the review leader</strong></p>\n<p><strong>b) Is correct. This is the task of the management in a formal review</strong></p>\n<p><strong>c) Is not correct. This is the task of the moderator</strong></p>\n<p><strong>d) Is not correct. This is the task of the scribe</strong></p>"
+   "explanation": "<p><strong>a) Is not correct. This is the task of the review leader</strong></p>\n<p><strong>b) Is correct. This is the task of the management in a formal review</strong></p>\n<p><strong>c) Is not correct. This is the task of the moderator</strong></p>\n<p><strong>d) Is not correct. This is the task of the scribe</strong></p>"
   },
   {
    "n": "A15",
@@ -1621,7 +1621,7 @@ window.EXAMS.A = {
     }
    ],
    "answer": "c",
-   "explanation": "<p>There are three equivalence partitions: {..., 10, 11}, {12}, and {13, 14, ...}.\n\nThe boundary values are 11, 12 and 13. In the three-point boundary value\n\nanalysis for each boundary, we need to test the boundary and both its\n\nneighbors, so:</p>\n<ul><li>for 11 we test 10, 11, 12</li><li>for 12 we test 11, 12, 13</li><li>for 13 we test 12, 13, 14\n\nAltogether we need to test 10, 11, 12, 13, and 14</li></ul>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is not correct\nVersion 1.7</strong></p>\n<p><strong>b) Is not correct                                                                           Release April 1, 2025</strong></p>\n<p><strong>c) Is correct</strong></p>\n<p><strong>d) Is not correct</strong></p>"
+   "explanation": "<p>There are three equivalence partitions: {..., 10, 11}, {12}, and {13, 14, ...}.\n\nThe boundary values are 11, 12 and 13. In the three-point boundary value\n\nanalysis for each boundary, we need to test the boundary and both its\n\nneighbors, so:</p>\n<ul><li>for 11 we test 10, 11, 12</li><li>for 12 we test 11, 12, 13</li><li>for 13 we test 12, 13, 14\n\nAltogether we need to test 10, 11, 12, 13, and 14</li></ul>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is not correct</strong></p>\n<p><strong>b) Is not correct</strong></p>\n<p><strong>c) Is correct</strong></p>\n<p><strong>d) Is not correct</strong></p>"
   },
   {
    "n": "A16",
@@ -1679,7 +1679,7 @@ window.EXAMS.A = {
     }
    ],
    "answer": "c",
-   "explanation": "<p>Page 34 of 38</p>\n<p><strong>a) Is not correct. The book provides general guidance, and is not a formal\nrequirements document, a specification, or a set of use cases, user\nstories, or business processes</strong></p>\n<p><strong>b) Is not correct. While you could consider the list as a set of test charters,\nit more closely resembles the list of test conditions to be checked</strong></p>\n<p><strong>c) Is correct. The list of user interface best practices is the list of test\nconditions to be systematically checked</strong></p>\n<p><strong>d) Is not correct. The tests are not focused on failures that could occur, but\nrather on knowledge about what is important for the user, in terms of\nusability</strong></p>"
+   "explanation": "<p><strong>a) Is not correct. The book provides general guidance, and is not a formal\nrequirements document, a specification, or a set of use cases, user\nstories, or business processes</strong></p>\n<p><strong>b) Is not correct. While you could consider the list as a set of test charters,\nit more closely resembles the list of test conditions to be checked</strong></p>\n<p><strong>c) Is correct. The list of user interface best practices is the list of test\nconditions to be systematically checked</strong></p>\n<p><strong>d) Is not correct. The tests are not focused on failures that could occur, but\nrather on knowledge about what is important for the user, in terms of\nusability</strong></p>"
   },
   {
    "n": "A18",

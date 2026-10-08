@@ -86,11 +86,11 @@ window.EXAMS.A = {
     },
     {
      "letter": "d",
-     "text": "Exhaustive testing is impossible"
+     "text": "Exhaustive testing is impossible Version 1.7"
     }
    ],
    "answer": "a",
-   "explanation": "<p><strong>a) Is correct. This principle means that if the same tests are repeated over\nand over again, eventually these tests no longer find any new defects.\nThis is probably why the tests all passed in this release as well</strong></p>\n<p><strong>b) Is not correct. This principle says about the mistaken belief that just\nfinding and fixing a large number of defects will ensure the success of a\nsystem</strong></p>\n<p><strong>c) Is not correct. This principle says that a small number of components\nusually contain most of the defects</strong></p>\n<p><strong>d) Is not correct. This principle states that testing all combinations of\ninputs and preconditions is not feasible</strong></p>"
+   "explanation": "<p>Version 1.7</p>\n<p><strong>a) Is correct. This principle means that if the same tests are repeated over\nand over again, eventually these tests no longer find any new defects.\nThis is probably why the tests all passed in this release as well</strong></p>\n<p><strong>b) Is not correct. This principle says about the mistaken belief that just\nfinding and fixing a large number of defects will ensure the success of a\nsystem</strong></p>\n<p><strong>c) Is not correct. This principle says that a small number of components\nusually contain most of the defects</strong></p>\n<p><strong>d) Is not correct. This principle states that testing all combinations of\ninputs and preconditions is not feasible</strong></p>"
   },
   {
    "n": 4,
@@ -148,7 +148,7 @@ window.EXAMS.A = {
     }
    ],
    "answer": "b",
-   "explanation": "<p>of test execution</p>\n<p><strong>i. Is true. The SDLC has an influence on the test approach</strong></p>\n<p><strong>ii. Is false. The number of defects detected in previous projects may\nhave some influence, but this is not as significant as i, iii and iv</strong></p>\n<p><strong>iii. Is true. The identified product risks are one of the most important\n\nfactors influencing the test approach</strong></p>\n<p><strong>iv. Is true. Regulatory requirements are important factors influencing the\n\ntest approach</strong></p>\n<p><strong>v. Is false. The test environment has no significant influence on the test\n\napproach</strong></p>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is not correct</strong></p>\n<p><strong>b) Is correct</strong></p>\n<p><strong>c) Is not correct</strong></p>\n<p><strong>d) Is not correct</strong></p>"
+   "explanation": "<p>of test execution\n\nVersion 1.7</p>\n<p><strong>i. Is true. The SDLC has an influence on the test approach</strong></p>\n<p><strong>ii. Is false. The number of defects detected in previous projects may\nhave some influence, but this is not as significant as i, iii and iv</strong></p>\n<p><strong>iii. Is true. The identified product risks are one of the most important\n\nfactors influencing the test approach</strong></p>\n<p><strong>iv. Is true. Regulatory requirements are important factors influencing the\n\ntest approach</strong></p>\n<p><strong>v. Is false. The test environment has no significant influence on the test\n\napproach</strong></p>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is not correct</strong></p>\n<p><strong>b) Is correct</strong></p>\n<p><strong>c) Is not correct</strong></p>\n<p><strong>d) Is not correct</strong></p>"
   },
   {
    "n": 6,
@@ -177,7 +177,7 @@ window.EXAMS.A = {
     },
     {
      "letter": "e",
-     "text": "Analyze the test basis"
+     "text": "Analyze the test basis Version 1.7"
     }
    ],
    "answer": [
@@ -213,7 +213,7 @@ window.EXAMS.A = {
     }
    ],
    "answer": "b",
-   "explanation": "<p>part of a test analysis.</p>\n<p><strong>i. Is true. Having domain knowledge is an important tester skill</strong></p>\n<p><strong>ii. Is false. This is a task of the business analyst together with the\nbusiness representative</strong></p>\n<p><strong>iii. Is true. Being a good team player is an important skill</strong></p>\n<p><strong>iv. Is false. Planning and organizing the work of the team is a task of the\ntest manager or, mostly in an Agile software development project,\nthe whole team and not just the tester</strong></p>\n<p><strong>v. Is true. Critical thinking is one of the most important skills of testers</strong></p>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is not correct</strong></p>\n<p><strong>b) Is correct</strong></p>\n<p><strong>c) Is not correct</strong></p>\n<p><strong>d) Is not correct</strong></p>"
+   "explanation": "<p>part of a test analysis.\n\nVersion 1.7</p>\n<p><strong>i. Is true. Having domain knowledge is an important tester skill</strong></p>\n<p><strong>ii. Is false. This is a task of the business analyst together with the\nbusiness representative</strong></p>\n<p><strong>iii. Is true. Being a good team player is an important skill</strong></p>\n<p><strong>iv. Is false. Planning and organizing the work of the team is a task of the\ntest manager or, mostly in an Agile software development project,\nthe whole team and not just the tester</strong></p>\n<p><strong>v. Is true. Critical thinking is one of the most important skills of testers</strong></p>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is not correct</strong></p>\n<p><strong>b) Is correct</strong></p>\n<p><strong>c) Is not correct</strong></p>\n<p><strong>d) Is not correct</strong></p>"
   },
   {
    "n": 8,
@@ -267,7 +267,7 @@ window.EXAMS.A = {
     },
     {
      "letter": "d",
-     "text": "In sequential, incremental, and iterative development models"
+     "text": "In sequential, incremental, and iterative development models Version 1.7"
     }
    ],
    "answer": "d",
@@ -300,7 +300,7 @@ window.EXAMS.A = {
     }
    ],
    "answer": "c",
-   "explanation": "<p><strong>a) Is not correct. It is more often used in behavior-driven development</strong></p>\n<p><strong>b) Is not correct. It is the description of test-driven development (TDD)</strong></p>\n<p><strong>c) Is correct. In acceptance test-driven development (ATDD) tests are\nwritten from acceptance criteria as part of the design process</strong></p>\n<p><strong>d) Is not correct. It is used in BDD</strong></p>"
+   "explanation": "<p>Version 1.7</p>\n<p><strong>a) Is not correct. It is more often used in behavior-driven development</strong></p>\n<p><strong>b) Is not correct. It is the description of test-driven development (TDD)</strong></p>\n<p><strong>c) Is correct. In acceptance test-driven development (ATDD) tests are\nwritten from acceptance criteria as part of the design process</strong></p>\n<p><strong>d) Is not correct. It is used in BDD</strong></p>"
   },
   {
    "n": 11,
@@ -354,7 +354,7 @@ window.EXAMS.A = {
     },
     {
      "letter": "d",
-     "text": "Retrospectives embrace five values including courage and respect, which are crucial to maintain continuous improvement in the organization"
+     "text": "Retrospectives embrace five values including courage and respect, which are crucial to maintain continuous improvement in the organization Version 1.7"
     }
    ],
    "answer": "c",
@@ -387,7 +387,7 @@ window.EXAMS.A = {
     }
    ],
    "answer": "a",
-   "explanation": "<p>Considering:\n– The test basis for acceptance testing is the user's business needs\n(1D)</p>\n<ul><li>Communication between components is tested during component\nintegration testing (2B)</li><li>Failures in logic can be found during component testing (3A)</li><li>Business rules are the test basis for system testing (4C)</li></ul>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is correct</strong></p>\n<p><strong>b) Is not correct</strong></p>\n<p><strong>c) Is not correct</strong></p>\n<p><strong>d) Is not correct</strong></p>"
+   "explanation": "<p>Version 1.7\n\n\nConsidering:\n– The test basis for acceptance testing is the user's business needs\n(1D)</p>\n<ul><li>Communication between components is tested during component\nintegration testing (2B)</li><li>Failures in logic can be found during component testing (3A)</li><li>Business rules are the test basis for system testing (4C)</li></ul>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is correct</strong></p>\n<p><strong>b) Is not correct</strong></p>\n<p><strong>c) Is not correct</strong></p>\n<p><strong>d) Is not correct</strong></p>"
   },
   {
    "n": 14,
@@ -412,7 +412,7 @@ window.EXAMS.A = {
     },
     {
      "letter": "d",
-     "text": "Only 5, 6"
+     "text": "Only 5, 6 Version 1.7"
     }
    ],
    "answer": "b",
@@ -445,7 +445,7 @@ window.EXAMS.A = {
     }
    ],
    "answer": "a",
-   "explanation": "<p><strong>a) Is correct. Defect management is no less expensive. Finding and fixing\ndefects later in the SDLC is more costly</strong></p>\n<p><strong>b) Is not correct. This is a benefit of static testing</strong></p>\n<p><strong>c) Is not correct. This is a benefit of static testing</strong></p>\n<p><strong>d) Is not correct. This is a benefit of static testing</strong></p>"
+   "explanation": "<p>Version 1.7</p>\n<p><strong>a) Is correct. Defect management is no less expensive. Finding and fixing\ndefects later in the SDLC is more costly</strong></p>\n<p><strong>b) Is not correct. This is a benefit of static testing</strong></p>\n<p><strong>c) Is not correct. This is a benefit of static testing</strong></p>\n<p><strong>d) Is not correct. This is a benefit of static testing</strong></p>"
   },
   {
    "n": 16,
@@ -503,7 +503,7 @@ window.EXAMS.A = {
     }
    ],
    "answer": "b",
-   "explanation": "<p>Considering the attributes:\n– Specified for walkthroughs, technical reviews, and inspections; thus,\nthe reviews being performed cannot be informal reviews</p>\n<ul><li>The purpose of evaluating quality is one of the most important\nobjectives of a walkthrough</li><li>This is not allowed for inspections and is typically not done in\ntechnical reviews. A moderator is needed in walkthroughs and is\nallowed for informal reviews</li><li>All types of reviews can include individual preparation (even informal\nreviews)</li><li>All types of reviews can produce a review report, although informal\nreviews do not require documentation</li></ul>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is not correct</strong></p>\n<p><strong>b) Is correct</strong></p>\n<p><strong>c) Is not correct</strong></p>\n<p><strong>d) Is not correct</strong></p>"
+   "explanation": "<p>Version 1.7\n\n\nConsidering the attributes:\n– Specified for walkthroughs, technical reviews, and inspections; thus,\nthe reviews being performed cannot be informal reviews</p>\n<ul><li>The purpose of evaluating quality is one of the most important\nobjectives of a walkthrough</li><li>This is not allowed for inspections and is typically not done in\ntechnical reviews. A moderator is needed in walkthroughs and is\nallowed for informal reviews</li><li>All types of reviews can include individual preparation (even informal\nreviews)</li><li>All types of reviews can produce a review report, although informal\nreviews do not require documentation</li></ul>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is not correct</strong></p>\n<p><strong>b) Is correct</strong></p>\n<p><strong>c) Is not correct</strong></p>\n<p><strong>d) Is not correct</strong></p>"
   },
   {
    "n": 18,
@@ -528,7 +528,7 @@ window.EXAMS.A = {
     },
     {
      "letter": "d",
-     "text": "Failures found should be acknowledged, appreciated, and handled objectively Version 1.7"
+     "text": "Failures found should be acknowledged, appreciated, and handled objectively"
     }
    ],
    "answer": "d",
@@ -561,7 +561,7 @@ window.EXAMS.A = {
     }
    ],
    "answer": "c",
-   "explanation": "<p><strong>a) Is not correct. This is a common characteristic of white-box test\ntechniques. Test conditions, test cases, and test data are derived from\na test basis that may include code, software architecture, detailed\ndesign, or any other source of information regarding the structure of the\nsoftware.</strong></p>\n<p><strong>b) Is not correct. This is a common characteristic of white-box test\ntechniques. Coverage is measured based on the items tested within a\nselected structure and the test technique applied to the test basis</strong></p>\n<p><strong>c) Is correct. This is a common characteristic of experience-based test\ntechniques. This knowledge and experience include expected use of\nthe software, its environment, likely defects, and the distribution of\nthose defects is used to define tests</strong></p>\n<p><strong>d) Is not correct. This is a common characteristic of black-box test\ntechniques. Test cases may be used to detect gaps within requirements\nand the implementation of the requirements, as well as deviations from\nthe requirements</strong></p>"
+   "explanation": "<p>Version 1.7</p>\n<p><strong>a) Is not correct. This is a common characteristic of white-box test\ntechniques. Test conditions, test cases, and test data are derived from\na test basis that may include code, software architecture, detailed\ndesign, or any other source of information regarding the structure of the\nsoftware.</strong></p>\n<p><strong>b) Is not correct. This is a common characteristic of white-box test\ntechniques. Coverage is measured based on the items tested within a\nselected structure and the test technique applied to the test basis</strong></p>\n<p><strong>c) Is correct. This is a common characteristic of experience-based test\ntechniques. This knowledge and experience include expected use of\nthe software, its environment, likely defects, and the distribution of\nthose defects is used to define tests</strong></p>\n<p><strong>d) Is not correct. This is a common characteristic of black-box test\ntechniques. Test cases may be used to detect gaps within requirements\nand the implementation of the requirements, as well as deviations from\nthe requirements</strong></p>"
   },
   {
    "n": 20,
@@ -586,11 +586,11 @@ window.EXAMS.A = {
     },
     {
      "letter": "d",
-     "text": "6"
+     "text": "6 Version 1.7"
     }
    ],
    "answer": "b",
-   "explanation": "<p>The situation presented in the question is described in the syllabus as \"each\nchoice\" coverage.\n\n\"Small garden\" and \"large garden\" can go only with \"ground floor\", so we\nneed two test cases with \"ground floor\" which cover these two \"garden type\"\npartitions.\n\nWe need two more test cases to cover the two other \"floor\" partitions. The\nremaining \"garden type\" partition of \"no garden\" is covered by these tests.\nWe need a total of four test cases:\n\nTC1 (ground floor, small garden)\n\nTC2 (ground floor, large garden)\n\nTC3 (first floor, no garden)\n\nTC4 (second or higher floor, no garden)</p>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is not correct</strong></p>\n<p><strong>b) Is correct</strong></p>\n<p><strong>c) Is not correct</strong></p>\n<p><strong>d) Is not correct</strong></p>"
+   "explanation": "<p>Version 1.7\n\n\n\nThe situation presented in the question is described in the syllabus as \"each\nchoice\" coverage.\n\n\"Small garden\" and \"large garden\" can go only with \"ground floor\", so we\nneed two test cases with \"ground floor\" which cover these two \"garden type\"\npartitions.\n\nWe need two more test cases to cover the two other \"floor\" partitions. The\nremaining \"garden type\" partition of \"no garden\" is covered by these tests.\nWe need a total of four test cases:\n\nTC1 (ground floor, small garden)\n\nTC2 (ground floor, large garden)\n\nTC3 (first floor, no garden)\n\nTC4 (second or higher floor, no garden)</p>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is not correct</strong></p>\n<p><strong>b) Is correct</strong></p>\n<p><strong>c) Is not correct</strong></p>\n<p><strong>d) Is not correct</strong></p>"
   },
   {
    "n": 21,
@@ -615,11 +615,11 @@ window.EXAMS.A = {
     },
     {
      "letter": "d",
-     "text": "100%"
+     "text": "100% Version 1.7"
     }
    ],
    "answer": "a",
-   "explanation": "<p>There are 12 boundary values for the final result values: 0, 50, 51, 60, 61,\n70, 71, 80, 81, 90, 91, and 100.\nThe test cases cover six of them (TC1–91, TC2–50, TC3–81, TC4–60,\nTC5–70 and TC7–51).\nTherefore, the test cases cover 6/12 = 50%.</p>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is correct</strong></p>\n<p><strong>b) Is not correct</strong></p>\n<p><strong>c) Is not correct</strong></p>\n<p><strong>d) Is not correct</strong></p>"
+   "explanation": "<p>Version 1.7\n\n\n\nThere are 12 boundary values for the final result values: 0, 50, 51, 60, 61,\n70, 71, 80, 81, 90, 91, and 100.\nThe test cases cover six of them (TC1–91, TC2–50, TC3–81, TC4–60,\nTC5–70 and TC7–51).\nTherefore, the test cases cover 6/12 = 50%.</p>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is correct</strong></p>\n<p><strong>b) Is not correct</strong></p>\n<p><strong>c) Is not correct</strong></p>\n<p><strong>d) Is not correct</strong></p>"
   },
   {
    "n": 22,
@@ -673,11 +673,11 @@ window.EXAMS.A = {
     },
     {
      "letter": "d",
-     "text": "3 Version 1.7"
+     "text": "3"
     }
    ],
    "answer": "d",
-   "explanation": "<p>deadline, but only members can receive a gift T-Shirt. Hence, the action\n\nis not correct\n\n\n\n\"test\" and \"error\" transitions cannot occur in one test case.\nNeither can both \"done\" transitions.\nThis means we need at least three test cases to achieve transition\ncoverage. For example:</p>\n<ul><li>TC1: test, done</li><li>TC2: run, error, done</li><li>TC3: run, pause, resume, pause, done</li></ul>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is not correct</strong></p>\n<p><strong>b) Is not correct</strong></p>\n<p><strong>c) Is not correct</strong></p>\n<p><strong>d) Is correct</strong></p>"
+   "explanation": "<p>deadline, but only members can receive a gift T-Shirt. Hence, the action\n\nis not correct\n\nVersion 1.7\n\n\n\"test\" and \"error\" transitions cannot occur in one test case.\nNeither can both \"done\" transitions.\nThis means we need at least three test cases to achieve transition\ncoverage. For example:</p>\n<ul><li>TC1: test, done</li><li>TC2: run, error, done</li><li>TC3: run, pause, resume, pause, done</li></ul>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is not correct</strong></p>\n<p><strong>b) Is not correct</strong></p>\n<p><strong>c) Is not correct</strong></p>\n<p><strong>d) Is correct</strong></p>"
   },
   {
    "n": 24,
@@ -735,7 +735,7 @@ window.EXAMS.A = {
     }
    ],
    "answer": "d",
-   "explanation": "<p>principles section in the syllabus). For example, for code \"input x; print\n\nx\" any single test with arbitrary x achieves 100% statement coverage,\n\nbut covers one input value</p>\n<p><strong>a) Is not correct. The fundamental strength of white-box test techniques is\nthat the entire software implementation is taken into account during\ntesting</strong></p>\n<p><strong>b) Is not correct. White-box coverage measures provide an objective\nmeasure of coverage and provide the necessary information to allow\nadditional tests to be generated to increase this coverage</strong></p>\n<p><strong>c) Is not correct. White-box test techniques can be used to perform\nreviews (static testing)</strong></p>\n<p><strong>d) Is correct. This is the weakness of the white-box test techniques. They\nare not able to identify the missing implementation, because they are\nbased solely on the test object structure, not on the requirements\nspecification</strong></p>"
+   "explanation": "<p>principles section in the syllabus). For example, for code \"input x; print\n\nx\" any single test with arbitrary x achieves 100% statement coverage,\n\nbut covers one input value\n\nVersion 1.7</p>\n<p><strong>a) Is not correct. The fundamental strength of white-box test techniques is\nthat the entire software implementation is taken into account during\ntesting</strong></p>\n<p><strong>b) Is not correct. White-box coverage measures provide an objective\nmeasure of coverage and provide the necessary information to allow\nadditional tests to be generated to increase this coverage</strong></p>\n<p><strong>c) Is not correct. White-box test techniques can be used to perform\nreviews (static testing)</strong></p>\n<p><strong>d) Is correct. This is the weakness of the white-box test techniques. They\nare not able to identify the missing implementation, because they are\nbased solely on the test object structure, not on the requirements\nspecification</strong></p>"
   },
   {
    "n": 26,
@@ -789,11 +789,11 @@ window.EXAMS.A = {
     },
     {
      "letter": "d",
-     "text": "Branch testing"
+     "text": "Branch testing Version 1.7"
     }
    ],
    "answer": "c",
-   "explanation": "<p>make it impractical, such as the tester having equivalent skills to the\n\ndeveloper and the time involved to perform the development. It is not\n\nerror guessing</p>\n<p><strong>a) Is not correct. This is a new product. You probably do not have a\nchecklist yet and test conditions might not be known due to missing\nrequirements</strong></p>\n<p><strong>b) Is not correct. This is a new product. You probably do not have enough\ninformation to make correct error guesses</strong></p>\n<p><strong>c) Is correct. Exploratory testing is most useful when there are few known\nspecifications and/or there is a pressing timeline for testing</strong></p>\n<p><strong>d) Is not correct. Branch testing is time-consuming, and your management\nis asking about some test results now. Also, branch testing does not\ninvolve domain knowledge</strong></p>"
+   "explanation": "<p>make it impractical, such as the tester having equivalent skills to the\n\ndeveloper and the time involved to perform the development. It is not\n\nerror guessing\n\nVersion 1.7</p>\n<p><strong>a) Is not correct. This is a new product. You probably do not have a\nchecklist yet and test conditions might not be known due to missing\nrequirements</strong></p>\n<p><strong>b) Is not correct. This is a new product. You probably do not have enough\ninformation to make correct error guesses</strong></p>\n<p><strong>c) Is correct. Exploratory testing is most useful when there are few known\nspecifications and/or there is a pressing timeline for testing</strong></p>\n<p><strong>d) Is not correct. Branch testing is time-consuming, and your management\nis asking about some test results now. Also, branch testing does not\ninvolve domain knowledge</strong></p>"
   },
   {
    "n": 28,
@@ -876,11 +876,11 @@ window.EXAMS.A = {
     },
     {
      "letter": "d",
-     "text": "Testers guarantee the release of high-quality software through early test design during the release planning"
+     "text": "Testers guarantee the release of high-quality software through early test design during the release planning Version 1.7"
     }
    ],
    "answer": "c",
-   "explanation": "<p><strong>a) Is not correct. Priorities for user stories are determined by the business\nrepresentative together with the development team</strong></p>\n<p><strong>b) Is not correct. Testers focus on both functional and non-functional\naspects of the system to be tested</strong></p>\n<p><strong>c) Is correct. According to the syllabus, this is one of the ways testers add\nvalue to iteration and release planning</strong></p>\n<p><strong>d) Is not correct. Early test design is not part of release planning. Early\ntest design does not automatically guarantee the release of quality\nsoftware</strong></p>"
+   "explanation": "<p>Version 1.7</p>\n<p><strong>a) Is not correct. Priorities for user stories are determined by the business\nrepresentative together with the development team</strong></p>\n<p><strong>b) Is not correct. Testers focus on both functional and non-functional\naspects of the system to be tested</strong></p>\n<p><strong>c) Is correct. According to the syllabus, this is one of the ways testers add\nvalue to iteration and release planning</strong></p>\n<p><strong>d) Is not correct. Early test design is not part of release planning. Early\ntest design does not automatically guarantee the release of quality\nsoftware</strong></p>"
   },
   {
    "n": 31,
@@ -970,11 +970,11 @@ window.EXAMS.A = {
     },
     {
      "letter": "d",
-     "text": "TC 001"
+     "text": "TC 001 Version 1.7"
     }
    ],
    "answer": "a",
-   "explanation": "<p>Test TC 001 must come first, followed by TC 002, to satisfy dependencies.\nAfterwards, TC 003 to satisfy priority and then TC 004, followed by TC 005.</p>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is correct</strong></p>\n<p><strong>b) Is not correct</strong></p>\n<p><strong>c) Is not correct</strong></p>\n<p><strong>d) Is not correct</strong></p>"
+   "explanation": "<p>Version 1.7\n\n\nTest TC 001 must come first, followed by TC 002, to satisfy dependencies.\nAfterwards, TC 003 to satisfy priority and then TC 004, followed by TC 005.</p>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is correct</strong></p>\n<p><strong>b) Is not correct</strong></p>\n<p><strong>c) Is not correct</strong></p>\n<p><strong>d) Is not correct</strong></p>"
   },
   {
    "n": 34,
@@ -1028,7 +1028,7 @@ window.EXAMS.A = {
     },
     {
      "letter": "d",
-     "text": "Risk transfer"
+     "text": "Risk transfer Version 1.7"
     }
    ],
    "answer": "c",
@@ -1061,7 +1061,7 @@ window.EXAMS.A = {
     }
    ],
    "answer": "d",
-   "explanation": "<p><strong>a) Is not correct. Acceptance criteria are the conditions used to decide\nwhether the user story is ready. They cannot show work progress</strong></p>\n<p><strong>b) Is not correct. Defect reports inform about the defects. They do not\nshow work progress</strong></p>\n<p><strong>c) Is not correct. Test completion report can be created after the iteration\nis finished, so it will not show the progress continuously within an\niteration</strong></p>\n<p><strong>d) Is correct. Burndown charts are a graphical representation of work left\nto do versus time remaining. They are updated daily, so they can\ncontinuously show the work progress</strong></p>"
+   "explanation": "<p>Version 1.7</p>\n<p><strong>a) Is not correct. Acceptance criteria are the conditions used to decide\nwhether the user story is ready. They cannot show work progress</strong></p>\n<p><strong>b) Is not correct. Defect reports inform about the defects. They do not\nshow work progress</strong></p>\n<p><strong>c) Is not correct. Test completion report can be created after the iteration\nis finished, so it will not show the progress continuously within an\niteration</strong></p>\n<p><strong>d) Is correct. Burndown charts are a graphical representation of work left\nto do versus time remaining. They are updated daily, so they can\ncontinuously show the work progress</strong></p>"
   },
   {
    "n": 37,
@@ -1115,11 +1115,11 @@ window.EXAMS.A = {
     },
     {
      "letter": "d",
-     "text": "Priority and severity"
+     "text": "Priority and severity Version 1.7"
     }
    ],
    "answer": "c",
-   "explanation": "<p><strong>a) Is not correct. The expected result is \"the application should accept the\nprovided input and create the user\". The actual result is \"The\napplication hangs up after entering \"Test input. $–\"\".</strong></p>\n<p><strong>b) Is not correct. There is a reference to the test case and to the related\nrequirement and it states that the defect is rejected. Also, the defect\nstatus would not be very helpful for the developers</strong></p>\n<p><strong>c) Is correct. We do not know in which test environment the anomaly was\ndetected, and we also do not know which application (and its version) is\naffected</strong></p>\n<p><strong>d) Is not correct. The defect report states that the anomaly is urgent, that it\nis a global issue (i.e., many, if not all, test administration accounts are\naffected) and states the impact is high for business stakeholders</strong></p>"
+   "explanation": "<p>Version 1.7</p>\n<p><strong>a) Is not correct. The expected result is \"the application should accept the\nprovided input and create the user\". The actual result is \"The\napplication hangs up after entering \"Test input. $–\"\".</strong></p>\n<p><strong>b) Is not correct. There is a reference to the test case and to the related\nrequirement and it states that the defect is rejected. Also, the defect\nstatus would not be very helpful for the developers</strong></p>\n<p><strong>c) Is correct. We do not know in which test environment the anomaly was\ndetected, and we also do not know which application (and its version) is\naffected</strong></p>\n<p><strong>d) Is not correct. The defect report states that the anomaly is urgent, that it\nis a global issue (i.e., many, if not all, test administration accounts are\naffected) and states the impact is high for business stakeholders</strong></p>"
   },
   {
    "n": 39,
@@ -1173,11 +1173,11 @@ window.EXAMS.A = {
     },
     {
      "letter": "d",
-     "text": "It may reduce the time allocated for manual testing"
+     "text": "It may reduce the time allocated for manual testing Version 1.7"
     }
    ],
    "answer": "b",
-   "explanation": "<p><strong>a) Is not correct. Test automation does not introduce unknown regressions\nin production</strong></p>\n<p><strong>b) Is correct. Wrong allocation of effort to maintain testware is a risk</strong></p>\n<p><strong>c) Is not correct. Test tools must be selected so that they and their\n\ntestware can be relied upon</strong></p>\n<p><strong>d) Is not correct. The primary goal of test automation is to reduce manual\n\ntesting. So, this is a benefit, not a risk</strong></p>"
+   "explanation": "<p>Version 1.7</p>\n<p><strong>a) Is not correct. Test automation does not introduce unknown regressions\nin production</strong></p>\n<p><strong>b) Is correct. Wrong allocation of effort to maintain testware is a risk</strong></p>\n<p><strong>c) Is not correct. Test tools must be selected so that they and their\n\ntestware can be relied upon</strong></p>\n<p><strong>d) Is not correct. The primary goal of test automation is to reduce manual\n\ntesting. So, this is a benefit, not a risk\n\nVersion 1.7</strong></p>"
   }
  ],
  "extras": [
@@ -1237,7 +1237,7 @@ window.EXAMS.A = {
     }
    ],
    "answer": "d",
-   "explanation": "<p>Considering:\nTesting and quality assurance are not the same. Testing is the\nprocess consisting of all software development lifecycle (SDLC)\nactivities, both static and dynamic, concerned with planning,\npreparation and evaluation of a component or system and related\nwork products to determine that they satisfy specified requirements, to\ndemonstrate that they are fit for purpose and to detect defects. Quality\nassurance is focused on establishing, introducing, monitoring,\nimproving, and adhering to the quality-related processes.</p>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is not correct</strong></p>\n<p><strong>b) Is not correct</strong></p>\n<p><strong>c) Is not correct</strong></p>\n<p><strong>d) Is correct</strong></p>"
+   "explanation": "<p>Version 1.7\n\n\nConsidering:\nTesting and quality assurance are not the same. Testing is the\nprocess consisting of all software development lifecycle (SDLC)\nactivities, both static and dynamic, concerned with planning,\npreparation and evaluation of a component or system and related\nwork products to determine that they satisfy specified requirements, to\ndemonstrate that they are fit for purpose and to detect defects. Quality\nassurance is focused on establishing, introducing, monitoring,\nimproving, and adhering to the quality-related processes.</p>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is not correct</strong></p>\n<p><strong>b) Is not correct</strong></p>\n<p><strong>c) Is not correct</strong></p>\n<p><strong>d) Is correct</strong></p>"
   },
   {
    "n": "A3",
@@ -1262,7 +1262,7 @@ window.EXAMS.A = {
     },
     {
      "letter": "d",
-     "text": "A defect"
+     "text": "A defect Version 1.7"
     }
    ],
    "answer": "d",
@@ -1324,7 +1324,7 @@ window.EXAMS.A = {
     }
    ],
    "answer": "c",
-   "explanation": "<p><strong>a) Is not correct. Performing the impact analysis will not give information\nabout completeness of tests. Analyzing the impact analysis of changes\nwill help to select the right test cases for execution</strong></p>\n<p><strong>b) Is not correct. Traceability does not give information about the\nestimated level of residual risk if the test cases are not traced back to\nrisks</strong></p>\n<p><strong>c) Is correct. Performing the impact analysis of the changes helps in\nselecting the test cases for the regression test</strong></p>\n<p><strong>d) Is not correct. Analyzing the traceability between the test basis, test\nobjects and test cases does not help in selecting test data to achieve\nthe assumed coverage of the test object. Selecting test data is more\nrelated to test analysis and test implementation, not traceability</strong></p>"
+   "explanation": "<p>Version 1.7</p>\n<p><strong>a) Is not correct. Performing the impact analysis will not give information\nabout completeness of tests. Analyzing the impact analysis of changes\nwill help to select the right test cases for execution</strong></p>\n<p><strong>b) Is not correct. Traceability does not give information about the\nestimated level of residual risk if the test cases are not traced back to\nrisks</strong></p>\n<p><strong>c) Is correct. Performing the impact analysis of the changes helps in\nselecting the test cases for the regression test</strong></p>\n<p><strong>d) Is not correct. Analyzing the traceability between the test basis, test\nobjects and test cases does not help in selecting test data to achieve\nthe assumed coverage of the test object. Selecting test data is more\nrelated to test analysis and test implementation, not traceability</strong></p>"
   },
   {
    "n": "A6",
@@ -1349,7 +1349,7 @@ window.EXAMS.A = {
     },
     {
      "letter": "d",
-     "text": "When specifications contain ambiguities and inconsistencies, assumptions are made on their interpretation, and an independent tester can be useful in questioning those assumptions and the interpretation made by the developer"
+     "text": "When specifications contain ambiguities and inconsistencies, assumptions are made on their interpretation, and an independent tester can be useful in questioning those assumptions and the interpretation made by the developer Version 1.7"
     }
    ],
    "answer": "d",
@@ -1389,7 +1389,7 @@ window.EXAMS.A = {
     "b",
     "c"
    ],
-   "explanation": "<p><strong>a) Is not correct. The executable code is usually created in the later\nphases, so dynamic test execution cannot be performed early in the\nSDLC</strong></p>\n<p><strong>b) Is correct. In sequential development models, in the initial phases,\ntesters participate in requirement reviews, which is a form of static\ntesting.</strong></p>\n<p><strong>c) Is correct. Test planning could be performed early in the SDLC before\nthe test project begins together with test analysis and test design.</strong></p>\n<p><strong>d) Is not correct. Acceptance test execution can be performed when there\nis a working product. In sequential SDLC models the working product is\nusually delivered later in the SDLC</strong></p>\n<p><strong>e) Is not correct. Maintenance testing when there is a working and\ndeployed product, which is not done in the early phases of any SDLC.</strong></p>"
+   "explanation": "<p>Version 1.7</p>\n<p><strong>a) Is not correct. The executable code is usually created in the later\nphases, so dynamic test execution cannot be performed early in the\nSDLC</strong></p>\n<p><strong>b) Is correct. In sequential development models, in the initial phases,\ntesters participate in requirement reviews, which is a form of static\ntesting.</strong></p>\n<p><strong>c) Is correct. Test planning could be performed early in the SDLC before\nthe test project begins together with test analysis and test design.</strong></p>\n<p><strong>d) Is not correct. Acceptance test execution can be performed when there\nis a working product. In sequential SDLC models the working product is\nusually delivered later in the SDLC</strong></p>\n<p><strong>e) Is not correct. Maintenance testing when there is a working and\ndeployed product, which is not done in the early phases of any SDLC.</strong></p>"
   },
   {
    "n": "A8",
@@ -1443,11 +1443,11 @@ window.EXAMS.A = {
     },
     {
      "letter": "d",
-     "text": "White-box, because we need to know the internal structure of the program to measure the order processing time"
+     "text": "White-box, because we need to know the internal structure of the program to measure the order processing time Version 1.7"
     }
    ],
    "answer": "b",
-   "explanation": "<p><strong>a) Is not correct. The fact that the requirement about the system's\nperformance comes directly from the client and that the performance is\nimportant from the business point of view (i.e., high priority) does not\nmake these tests functional, because they do not check \"what\" the\nsystem does, but \"how\" (i.e., how fast the orders are processed)</strong></p>\n<p><strong>b) Is correct. This is an example of testing for performance efficiency, a\ntype of non-functional testing</strong></p>\n<p><strong>c) Is not correct. From the scenario, we do not know if interacting with the\nuser interface is a part of the test conditions. But even if we did, the\nmain test objective of these tests is to check the performance, not the\nusability</strong></p>\n<p><strong>d) Is not correct. We do not need to know the internal structure of the code\nto perform the performance efficiency testing. One can execute\nperformance efficiency tests without structural knowledge</strong></p>"
+   "explanation": "<p>Version 1.7</p>\n<p><strong>a) Is not correct. The fact that the requirement about the system's\nperformance comes directly from the client and that the performance is\nimportant from the business point of view (i.e., high priority) does not\nmake these tests functional, because they do not check \"what\" the\nsystem does, but \"how\" (i.e., how fast the orders are processed)</strong></p>\n<p><strong>b) Is correct. This is an example of testing for performance efficiency, a\ntype of non-functional testing</strong></p>\n<p><strong>c) Is not correct. From the scenario, we do not know if interacting with the\nuser interface is a part of the test conditions. But even if we did, the\nmain test objective of these tests is to check the performance, not the\nusability</strong></p>\n<p><strong>d) Is not correct. We do not need to know the internal structure of the code\nto perform the performance efficiency testing. One can execute\nperformance efficiency tests without structural knowledge</strong></p>"
   },
   {
    "n": "A10",
@@ -1505,7 +1505,7 @@ window.EXAMS.A = {
     }
    ],
    "answer": "c",
-   "explanation": "<p>Number Answer Only third-party executable code cannot be reviewed. Objective of</p>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is not correct</strong></p>\n<p><strong>b) Is not correct</strong></p>\n<p><strong>c) It is correct</strong></p>\n<p><strong>d) Is not correct</strong></p>"
+   "explanation": "<p>Version 1.7\n\n\nNumber Answer Only third-party executable code cannot be reviewed. Objective of</p>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is not correct</strong></p>\n<p><strong>b) Is not correct</strong></p>\n<p><strong>c) It is correct</strong></p>\n<p><strong>d) Is not correct</strong></p>"
   },
   {
    "n": "A12",
@@ -1530,11 +1530,11 @@ window.EXAMS.A = {
     },
     {
      "letter": "d",
-     "text": "ii, iv, v are true for static testing"
+     "text": "ii, iv, v are true for static testing Version 1.7"
     }
    ],
    "answer": "d",
-   "explanation": "<p>Consider:\n\ni. These behaviors are easily detectable while the software is running.\n\nHence, dynamic testing shall be used to identify them\n\nii. This is an example of deviations from standards, which is a typical\n\ndefect that is easier found with static testing\n\niii. If the software is executed during the test, it is dynamic testing\n\niv. Identifying defects as early as possible is the test objective of both\n\nstatic testing and dynamic testing\n\nv. This is an example of gaps in the test basis traceability or coverage,\n\nwhich is a typical defect that is easier found with static testing</p>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is not correct\nVersion 1.7</strong></p>\n<p><strong>b) Is not correct                                                                                               Release April 1, 2025</strong></p>\n<p><strong>c) Is not correct</strong></p>\n<p><strong>d) Is correct</strong></p>"
+   "explanation": "<p>Consider:\n\ni. These behaviors are easily detectable while the software is running.\n\nHence, dynamic testing shall be used to identify them\n\nii. This is an example of deviations from standards, which is a typical\n\ndefect that is easier found with static testing\n\niii. If the software is executed during the test, it is dynamic testing\n\niv. Identifying defects as early as possible is the test objective of both\n\nstatic testing and dynamic testing\n\nv. This is an example of gaps in the test basis traceability or coverage,\n\nwhich is a typical defect that is easier found with static testing</p>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is not correct\nVersion 1.7</strong></p>\n<p><strong>b) Is not correct</strong></p>\n<p><strong>c) Is not correct</strong></p>\n<p><strong>d) Is correct</strong></p>"
   },
   {
    "n": "A13",
@@ -1592,7 +1592,7 @@ window.EXAMS.A = {
     }
    ],
    "answer": "b",
-   "explanation": "<p>Page 33 of 38</p>\n<p><strong>a) Is not correct. This is the task of the review leader</strong></p>\n<p><strong>b) Is correct. This is the task of the management in a formal review</strong></p>\n<p><strong>c) Is not correct. This is the task of the moderator</strong></p>\n<p><strong>d) Is not correct. This is the task of the scribe</strong></p>"
+   "explanation": "<p><strong>a) Is not correct. This is the task of the review leader</strong></p>\n<p><strong>b) Is correct. This is the task of the management in a formal review</strong></p>\n<p><strong>c) Is not correct. This is the task of the moderator</strong></p>\n<p><strong>d) Is not correct. This is the task of the scribe</strong></p>"
   },
   {
    "n": "A15",
@@ -1617,11 +1617,11 @@ window.EXAMS.A = {
     },
     {
      "letter": "d",
-     "text": "10, 11, 13, 14"
+     "text": "10, 11, 13, 14 Version 1.7"
     }
    ],
    "answer": "c",
-   "explanation": "<p>There are three equivalence partitions: {..., 10, 11}, {12}, and {13, 14, ...}.\n\nThe boundary values are 11, 12 and 13. In the three-point boundary value\n\nanalysis for each boundary, we need to test the boundary and both its\n\nneighbors, so:</p>\n<ul><li>for 11 we test 10, 11, 12</li><li>for 12 we test 11, 12, 13</li><li>for 13 we test 12, 13, 14\n\nAltogether we need to test 10, 11, 12, 13, and 14</li></ul>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is not correct\nVersion 1.7</strong></p>\n<p><strong>b) Is not correct                                                                           Release April 1, 2025</strong></p>\n<p><strong>c) Is correct</strong></p>\n<p><strong>d) Is not correct</strong></p>"
+   "explanation": "<p>There are three equivalence partitions: {..., 10, 11}, {12}, and {13, 14, ...}.\n\nThe boundary values are 11, 12 and 13. In the three-point boundary value\n\nanalysis for each boundary, we need to test the boundary and both its\n\nneighbors, so:</p>\n<ul><li>for 11 we test 10, 11, 12</li><li>for 12 we test 11, 12, 13</li><li>for 13 we test 12, 13, 14\n\nAltogether we need to test 10, 11, 12, 13, and 14</li></ul>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is not correct\nVersion 1.7</strong></p>\n<p><strong>b) Is not correct</strong></p>\n<p><strong>c) Is correct</strong></p>\n<p><strong>d) Is not correct</strong></p>"
   },
   {
    "n": "A16",
@@ -1679,7 +1679,7 @@ window.EXAMS.A = {
     }
    ],
    "answer": "c",
-   "explanation": "<p>Page 34 of 38</p>\n<p><strong>a) Is not correct. The book provides general guidance, and is not a formal\nrequirements document, a specification, or a set of use cases, user\nstories, or business processes</strong></p>\n<p><strong>b) Is not correct. While you could consider the list as a set of test charters,\nit more closely resembles the list of test conditions to be checked</strong></p>\n<p><strong>c) Is correct. The list of user interface best practices is the list of test\nconditions to be systematically checked</strong></p>\n<p><strong>d) Is not correct. The tests are not focused on failures that could occur, but\nrather on knowledge about what is important for the user, in terms of\nusability</strong></p>"
+   "explanation": "<p><strong>a) Is not correct. The book provides general guidance, and is not a formal\nrequirements document, a specification, or a set of use cases, user\nstories, or business processes</strong></p>\n<p><strong>b) Is not correct. While you could consider the list as a set of test charters,\nit more closely resembles the list of test conditions to be checked</strong></p>\n<p><strong>c) Is correct. The list of user interface best practices is the list of test\nconditions to be systematically checked</strong></p>\n<p><strong>d) Is not correct. The tests are not focused on failures that could occur, but\nrather on knowledge about what is important for the user, in terms of\nusability</strong></p>"
   },
   {
    "n": "A18",
@@ -1704,7 +1704,7 @@ window.EXAMS.A = {
     },
     {
      "letter": "d",
-     "text": "User stories are created in a way that they are independent, negotiable, valuable, estimable, small, and testable"
+     "text": "User stories are created in a way that they are independent, negotiable, valuable, estimable, small, and testable Version 1.7"
     }
    ],
    "answer": "b",
@@ -1762,11 +1762,11 @@ window.EXAMS.A = {
     },
     {
      "letter": "d",
-     "text": "Remove the new feature from the current release because consensus has not been reached"
+     "text": "Remove the new feature from the current release because consensus has not been reached Version 1.7"
     }
    ],
    "answer": "b",
-   "explanation": "<p><strong>a) Is not correct. This should be a team activity and not overruled by one\nteam member</strong></p>\n<p><strong>b) Is correct. If test estimates are not the same, but the variation in the\nresults is small, applying rules like \"accept the number with the most\nvotes\" can be applied</strong></p>\n<p><strong>c) Is not correct. There is no consensus yet as some say 13, others say 8</strong></p>\n<p><strong>d) Is not correct. A feature should not be removed only because the team</strong></p>"
+   "explanation": "<p>Version 1.7</p>\n<p><strong>a) Is not correct. This should be a team activity and not overruled by one\nteam member</strong></p>\n<p><strong>b) Is correct. If test estimates are not the same, but the variation in the\nresults is small, applying rules like \"accept the number with the most\nvotes\" can be applied</strong></p>\n<p><strong>c) Is not correct. There is no consensus yet as some say 13, others say 8</strong></p>\n<p><strong>d) Is not correct. A feature should not be removed only because the team</strong></p>"
   },
   {
    "n": "A21",
@@ -1849,11 +1849,11 @@ window.EXAMS.A = {
     },
     {
      "letter": "d",
-     "text": "ii, v are project risks"
+     "text": "ii, v are project risks Version 1.7"
     }
    ],
    "answer": "a",
-   "explanation": "<p>Consider:\ni. It is a Project risk\nii. It is a Product risk\niii. It is a Product risk\niv. It is a Project risk\nv. It is a Product risk</p>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is correct</strong></p>\n<p><strong>b) Is not correct</strong></p>\n<p><strong>c) Is not correct</strong></p>\n<p><strong>d) Is not correct</strong></p>"
+   "explanation": "<p>Version 1.7\n\n\nConsider:\ni. It is a Project risk\nii. It is a Product risk\niii. It is a Product risk\niv. It is a Project risk\nv. It is a Product risk</p>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is correct</strong></p>\n<p><strong>b) Is not correct</strong></p>\n<p><strong>c) Is not correct</strong></p>\n<p><strong>d) Is not correct</strong></p>"
   },
   {
    "n": "A24",
@@ -1918,7 +1918,7 @@ window.EXAMS.A = {
     "a",
     "d"
    ],
-   "explanation": "<p>testing (i.e., the level of detail)</p>\n<p><strong>a) Is correct. The number of defects found is related to the test object\nquality</strong></p>\n<p><strong>b) Is not correct. This is the measure of the test efficiency not the test\nobject quality</strong></p>\n<p><strong>c) Is not correct. The number of test cases executed does not tell us\nanything about the quality; test results might do</strong></p>\n<p><strong>d) Is correct. defect density is related to the test object quality</strong></p>\n<p><strong>e) Is not correct. Time to repair is a process metric. It does not tell us</strong></p>"
+   "explanation": "<p>testing (i.e., the level of detail)\n\nVersion 1.7</p>\n<p><strong>a) Is correct. The number of defects found is related to the test object\nquality</strong></p>\n<p><strong>b) Is not correct. This is the measure of the test efficiency not the test\nobject quality</strong></p>\n<p><strong>c) Is not correct. The number of test cases executed does not tell us\nanything about the quality; test results might do</strong></p>\n<p><strong>d) Is correct. defect density is related to the test object quality</strong></p>\n<p><strong>e) Is not correct. Time to repair is a process metric. It does not tell us</strong></p>"
   },
   {
    "n": "A26",
@@ -1943,11 +1943,11 @@ window.EXAMS.A = {
     },
     {
      "letter": "d",
-     "text": "New risks within the test cycle"
+     "text": "New risks within the test cycle Version 1.7"
     }
    ],
    "answer": "b",
-   "explanation": "<p>anything about the product quality</p>\n<p><strong>a) Is not correct. Impediments to testing can be high-level and business-\n\nrelated, so this is an important piece of information for business\nstakeholders</strong></p>\n<p><strong>b) Is correct. Branch testing is a technical metric used by developers and\ntechnical test analysts. This information is of no interest to business\nrepresentatives</strong></p>\n<p><strong>c) Is not correct. Test progress is project related, so it may be useful for\nbusiness representatives</strong></p>\n<p><strong>d) Is not correct. Risks impact product quality, so it may be useful for\nbusiness representatives</strong></p>"
+   "explanation": "<p>anything about the product quality</p>\n<p><strong>a) Is not correct. Impediments to testing can be high-level and business-\n\nrelated, so this is an important piece of information for business\nstakeholders</strong></p>\n<p><strong>b) Is correct. Branch testing is a technical metric used by developers and\ntechnical test analysts. This information is of no interest to business\nrepresentatives</strong></p>\n<p><strong>c) Is not correct. Test progress is project related, so it may be useful for\nbusiness representatives</strong></p>\n<p><strong>d) Is not correct. Risks impact product quality, so it may be useful for\nbusiness representatives\n\nVersion 1.7</strong></p>"
   }
  ]
 };

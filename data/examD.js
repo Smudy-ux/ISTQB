@@ -405,7 +405,7 @@ window.EXAMS.D = {
     },
     {
      "letter": "d",
-     "text": "The language support option of the currency exchange system was used to enable both English and local language currency transactions Version 1.5"
+     "text": "The language support option of the currency exchange system was used to enable both English and local language currency transactions"
     }
    ],
    "answer": "b",

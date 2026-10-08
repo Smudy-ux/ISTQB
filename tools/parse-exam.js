@@ -180,19 +180,28 @@ function normWS(s) { return s.replace(/[ \t]+/g, " ").trim(); }
 function isFurniture(line) {
   const t = line.trim();
   if (!t) return false;
-  return /^Version [\d.]+\s+Page \d+ of \d+/.test(t)
-    || /^Release .*\d{4}$/.test(t)
+  return /^Version [\d.]+(\s+Page \d+ of \d+)?$/.test(t)
+    || /^Page \d+ of \d+$/.test(t)
+    || /^(Release .*\d{4}(\s+Page \d+ of \d+)?|Page \d+ of \d+\s+Release )/.test(t)
     || /^[•©]\s*International Software Testing Qualifications Board$/.test(t)
     || /^Certified Tester, Foundation Level$/.test(t)
     || /^Sample Exams? set [A-D]$/.test(t)
     || /^Sample Exam . (Questions|Answers)$/.test(t)
     || /^Appendix: Additional (Sample )?Questions$/.test(t);
 }
+// pdftotext -layout spills page footers ("Version 1.7", "Release April 1, 2025",
+// "Page 33 of 38") right onto the end of content lines — trim them off.
+function stripFooterSuffix(line) {
+  return line
+    .replace(/\s{2,}(Release .*\d{4})(\s+Page \d+ of \d+)?\s*$/, "")
+    .replace(/\s+Version \d+\.\d+(\s+Page \d+ of \d+)?\s*$/, "")
+    .replace(/(^|\s)Page \d+ of \d+(\s|$)/g, "$1");
+}
 
 /* ─────────── questions side ─────────── */
 function parseQuestions(txt) {
   const lines = txt.split(/\r?\n/).map(demangle);
-  const clean = lines.filter((l) => !isFurniture(l));
+  const clean = lines.filter((l) => !isFurniture(l)).map(stripFooterSuffix);
   const HDR = /^Question #(\w+) \((\d+) Points?\)\s*$/;
   const OPT = /^\s*([a-e])\)\s*(.*)$/;
   const entries = [];
@@ -406,7 +415,7 @@ function parseKeyTable(rawLines, startIdx, endIdx) {
 }
 
 function parseRegion(lines, qs) {
-  const clean = lines.filter((l) => !isFurniture(l));
+  const clean = lines.filter((l) => !isFurniture(l)).map(stripFooterSuffix);
   const rows = clean.map((l) => parseLineCols(l));
   // anchors
   const anchors = []; // {n, idx}
