@@ -127,7 +127,7 @@ window.EXAMS.A = {
    "k": "K2",
    "lo": "FL-1.4.2",
    "selectCount": 1,
-   "stem": "<p>Which of the following factors have a SIGNIFICANT influence on the test approach?</p>\n<ul><li>i. The SDLC ii. The number of defects detected in previous projects iii. The identified product risks iv. New regulatory requirements forcing formal white-box testing v. The test environment setup</li></ul>",
+   "stem": "<p>Which of the following factors have a SIGNIFICANT influence on the test approach?</p>\n<ul style='list-style-type:none;padding-left:14px'><li>i. The SDLC</li>\n<li>ii. The number of defects detected in previous projects</li>\n<li>iii. The identified product risks</li>\n<li>iv. New regulatory requirements forcing formal white-box testing</li>\n<li>v. The test environment setup</li></ul>",
    "exhibit": null,
    "options": [
     {
@@ -192,7 +192,7 @@ window.EXAMS.A = {
    "k": "K2",
    "lo": "FL-1.5.1",
    "selectCount": 1,
-   "stem": "<p>Which of the following skills (i-v) are the MOST important skills of a tester?</p>\n<ul><li>i. Having domain knowledge ii. Creating a product vision iii. Being a good team player iv. Planning and organizing the work of the team v. Critical thinking</li></ul>",
+   "stem": "<p>Which of the following skills (i-v) are the MOST important skills of a tester?</p>\n<ul style='list-style-type:none;padding-left:14px'><li>i. Having domain knowledge</li>\n<li>ii. Creating a product vision</li>\n<li>iii. Being a good team player</li>\n<li>iv. Planning and organizing the work of the team</li>\n<li>v. Critical thinking</li></ul>",
    "exhibit": null,
    "options": [
     {
@@ -366,7 +366,7 @@ window.EXAMS.A = {
    "k": "K2",
    "lo": "FL-2.2.1",
    "selectCount": 1,
-   "stem": "<p>Which types of failures (1-4) fit which test levels (A-D) BEST?</p>\n<p>1. Failures in system behavior as it deviates from the user's business needs 2. Failures in communication between components</p>\n<p>3. Failures in logic in the code 4. Failures in not correctly implemented business rules</p>\n<p>A. Component testing B. Component integration testing C. System testing D. Acceptance testing</p>",
+   "stem": "<p>Which types of failures (1-4) fit which test levels (A-D) BEST?</p>\n<ul style='list-style-type:none;padding-left:14px'><li>1. Failures in system behavior as it deviates from the user's business needs</li>\n<li>2. Failures in communication between components</li>\n<li>3. Failures in logic in the code</li>\n<li>4. Failures in not correctly implemented business rules</li></ul>\n<ul style='list-style-type:none;padding-left:14px'><li>A. Component testing</li>\n<li>B. Component integration testing</li>\n<li>C. System testing</li>\n<li>D. Acceptance testing</li></ul>",
    "exhibit": null,
    "options": [
     {
@@ -982,7 +982,7 @@ window.EXAMS.A = {
    "k": "K2",
    "lo": "FL-5.1.7",
    "selectCount": 1,
-   "stem": "<p>Consider the following test categories (1-4) and agile testing quadrants (A-D):</p>\n<p>1. Usability testing 2. Component testing 3. Functional testing 4. Reliability testing</p>\n<p>A. Agile testing quadrant Q1: technology facing, supporting the development team B. Agile testing quadrant Q2: business facing, supporting the development team C. Agile testing quadrant Q3: business facing, critique the product D. Agile testing quadrant Q4: technology facing, critique the product</p>\n<p>How do the following test categories map onto the agile testing quadrants?</p>",
+   "stem": "<p>Consider the following test categories (1-4) and agile testing quadrants (A-D):</p>\n<ol><li>Usability testing</li>\n<li>Component testing</li>\n<li>Functional testing</li>\n<li>Reliability testing</li></ol>\n<ul style='list-style-type:none;padding-left:14px'><li>A. Agile testing quadrant Q1: technology facing, supporting the development team</li>\n<li>B. Agile testing quadrant Q2: business facing, supporting the development team</li>\n<li>C. Agile testing quadrant Q3: business facing, critique the product</li>\n<li>D. Agile testing quadrant Q4: technology facing, critique the product</li></ul>\n<p>How do the following test categories map onto the agile testing quadrants?</p>",
    "exhibit": null,
    "options": [
     {
@@ -1397,7 +1397,7 @@ window.EXAMS.A = {
    "k": "K2",
    "lo": "FL-2.1.4",
    "selectCount": 1,
-   "stem": "<p>Which of the following are advantages of DevOps?</p>\n<ul><li>i. Faster product release and faster time to market ii. Increases the need for repetitive manual testing iii. Constant availability of executable software iv. Reduction in the number of regression tests associated with code refactoring v. Setting up the test automation framework is inexpensive since everything is</li></ul>\n<p>automated</p>",
+   "stem": "<p>Which of the following are advantages of DevOps?</p>\n<ul style='list-style-type:none;padding-left:14px'><li>i. Faster product release and faster time to market</li>\n<li>ii. Increases the need for repetitive manual testing</li>\n<li>iii. Constant availability of executable software</li>\n<li>iv. Reduction in the number of regression tests associated with code refactoring</li>\n<li>v. Setting up the test automation framework is inexpensive since everything is automated</li></ul>",
    "exhibit": null,
    "options": [
     {
@@ -1484,7 +1484,7 @@ window.EXAMS.A = {
    "k": "K2",
    "lo": "FL-3.1.1",
    "selectCount": 1,
-   "stem": "<p>The following is a list of the work products produced in the SDLC.</p>\n<ul><li>i. Business requirements ii. Schedule iii. Test budget iv. Third-party executable code v. User stories and their acceptance criteria</li></ul>\n<p>Which of them can be reviewed?</p>",
+   "stem": "<p>The following is a list of the work products produced in the SDLC.</p>\n<ul style='list-style-type:none;padding-left:14px'><li>i. Business requirements</li>\n<li>ii. Schedule</li>\n<li>iii. Test budget</li>\n<li>iv. Third-party executable code</li>\n<li>v. User stories and their acceptance criteria</li></ul>\n<p>Which of them can be reviewed?</p>",
    "exhibit": null,
    "options": [
     {
@@ -1513,7 +1513,7 @@ window.EXAMS.A = {
    "k": "K2",
    "lo": "FL-3.1.3",
    "selectCount": 1,
-   "stem": "<p>Decide which of the following statements (i-v) are true for static testing.</p>\n<ul><li>i. Abnormal external behaviors are easier to identify with this testing ii. Discrepancies from a coding standard are easier to find with this testing iii. It identifies failures caused by defects when the software is run iv. Its test objective is to identify defects as early as possible v. Missing coverage for critical security requirements is easier to find and fix</li></ul>",
+   "stem": "<p>Decide which of the following statements (i-v) are true for static testing.</p>\n<ul style='list-style-type:none;padding-left:14px'><li>i. Abnormal external behaviors are easier to identify with this testing</li>\n<li>ii. Discrepancies from a coding standard are easier to find with this testing</li>\n<li>iii. It identifies failures caused by defects when the software is run</li>\n<li>iv. Its test objective is to identify defects as early as possible</li>\n<li>v. Missing coverage for critical security requirements is easier to find and fix</li></ul>",
    "exhibit": null,
    "options": [
     {
@@ -1832,7 +1832,7 @@ window.EXAMS.A = {
    "k": "K2",
    "lo": "FL-5.2.2",
    "selectCount": 1,
-   "stem": "<p>The following list contains risks that have been identified for a new software product to be developed:</p>\n<ul><li>i. Management moves two experienced testers to another project ii. The system does not comply with security standards iii. System response time exceeds user requirements iv. Stakeholders have inaccurate expectations v. Disabled people have problems when using the system</li></ul>\n<p>Which of them are project risks?</p>",
+   "stem": "<p>The following list contains risks that have been identified for a new software product to be developed:</p>\n<ul style='list-style-type:none;padding-left:14px'><li>i. Management moves two experienced testers to another project</li>\n<li>ii. The system does not comply with security standards</li>\n<li>iii. System response time exceeds user requirements</li>\n<li>iv. Stakeholders have inaccurate expectations</li>\n<li>v. Disabled people have problems when using the system</li></ul>\n<p>Which of them are project risks?</p>",
    "exhibit": null,
    "options": [
     {

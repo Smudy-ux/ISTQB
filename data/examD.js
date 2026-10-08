@@ -98,7 +98,7 @@ window.EXAMS.D = {
    "k": "K2",
    "lo": "FL-1.4.1",
    "selectCount": 1,
-   "stem": "<p>Given the following test tasks: 1. Derive test cases from test conditions 2. Identify reusable testware 3. Organize test cases into test procedures 4. Evaluate the test basis and the test object</p>\n<p>And the following test activities: A. Test analysis B. Test design C. Test implementation D. Test completion</p>\n<p>Which of the following BEST matches the tasks with the activities?</p>",
+   "stem": "<p>Given the following test tasks:</p>\n<ul style='list-style-type:none;padding-left:14px'><li>1. Derive test cases from test conditions</li>\n<li>2. Identify reusable testware</li>\n<li>3. Organize test cases into test procedures</li>\n<li>4. Evaluate the test basis and the test object</li></ul>\n<p>And the following test activities:</p>\n<ul style='list-style-type:none;padding-left:14px'><li>A. Test analysis</li>\n<li>B. Test design</li>\n<li>C. Test implementation</li>\n<li>D. Test completion</li></ul>\n<p>Which of the following BEST matches the tasks with the activities?</p>",
    "exhibit": null,
    "options": [
     {
@@ -127,7 +127,7 @@ window.EXAMS.D = {
    "k": "K2",
    "lo": "FL-1.4.3",
    "selectCount": 1,
-   "stem": "<p>Given the following testware: i. Test completion report ii. Data held in a database used for test inputs and expected results iii. The list of elements needed to build the test environment iv. Documented sequences of test cases in execution order v. Test cases</p>\n<p>Which of the following BEST shows the testware produced as a result of performing test implementation?</p>",
+   "stem": "<p>Given the following testware:</p>\n<ul style='list-style-type:none;padding-left:14px'><li>i. Test completion report</li>\n<li>ii. Data held in a database used for test inputs and expected results</li>\n<li>iii. The list of elements needed to build the test environment</li>\n<li>iv. Documented sequences of test cases in execution order</li>\n<li>v. Test cases</li></ul>\n<p>Which of the following BEST shows the testware produced as a result of performing test implementation?</p>",
    "exhibit": null,
    "options": [
     {
@@ -214,7 +214,7 @@ window.EXAMS.D = {
    "k": "K2",
    "lo": "FL-1.5.3",
    "selectCount": 1,
-   "stem": "<p>Given the following benefits and drawbacks of the independence of testing: i. The testers work in a different location from the developers ii. Testers question the assumptions programmers make while writing code iii. A confrontational dynamic has been established between testers and developers iv. Developers have convinced themselves that testers are mostly accountable for quality v. Testers have different biases than those held by the developers</p>\n<p>Which are MOST likely to be considered benefits?</p>",
+   "stem": "<p>Given the following benefits and drawbacks of the independence of testing:</p>\n<ul style='list-style-type:none;padding-left:14px'><li>i. The testers work in a different location from the developers</li>\n<li>ii. Testers question the assumptions programmers make while writing code</li>\n<li>iii. A confrontational dynamic has been established between testers and developers</li>\n<li>iv. Developers have convinced themselves that testers are mostly accountable for quality</li>\n<li>v. Testers have different biases than those held by the developers</li></ul>\n<p>Which are MOST likely to be considered benefits?</p>",
    "exhibit": null,
    "options": [
     {
@@ -1134,7 +1134,7 @@ window.EXAMS.D = {
    "k": "K2",
    "lo": "FL-6.1.1",
    "selectCount": 1,
-   "stem": "<p>Given the following test tool categories: i. Collaboration tools ii. DevOps tools iii. Management tools iv. Non-functional testing tools v. Test design and implementation tools</p>\n<p>Tools from which of the categories are MOST likely to facilitate test execution?</p>",
+   "stem": "<p>Given the following test tool categories:</p>\n<ul style='list-style-type:none;padding-left:14px'><li>i. Collaboration tools</li>\n<li>ii. DevOps tools</li>\n<li>iii. Management tools</li>\n<li>iv. Non-functional testing tools</li>\n<li>v. Test design and implementation tools</li></ul>\n<p>Tools from which of the categories are MOST likely to facilitate test execution?</p>",
    "exhibit": null,
    "options": [
     {

@@ -265,6 +265,25 @@ function renderAll() {
   renderProgress();
 }
 
+/* Explanations carry pdftotext line wraps as raw \n. Inside <p> blocks those
+   collapse to spaces (harmless for wrapped prose), but enumerated lines that
+   begin a new line ("1. ...", "i. ...", "A. ...", "– bullet") would flow
+   together into a run-on. Turn only those breaks into real line breaks. */
+function renderExplanation(html) {
+  return html.replace(/\n(?=\s*[•–-]\s)/g, "<br>")
+    .replace(/\n(?=\s*\d{1,2}[.)]\s)/g, "<br>")
+    .replace(/\n(?=\s*(?:i|ii|iii|iv|v)\. [A-Z"])/g, "<br>")
+    .replace(/\n(?=\s*[ABCDEF][.)] [A-Z“"\'])/g, "<br>")
+    // color each verdict by its own wording ("a) Is not correct" must not
+    // render green just because it comes first)
+    // Color the correct verdict's heading green ("c) Is correct."). Negated
+    // verdicts ("a) Is not correct.") never match, so a wrong option's line
+    // can't borrow the success color — the old CSS painted the FIRST verdict
+    // green no matter which option it judged.
+    .replace(/<p><strong>([a-e]\)\s*(?:It is |Is )?(?!not\b)correct\.?)/gi,
+      (m, label) => `<p><strong class="vok">${label}</strong><strong>`);
+}
+
 function renderProgress() {
   const n = Object.keys(S.answers).filter((k) => (S.answers[k] || []).length).length;
   $("answered-count").textContent = `${n} / ${S.pool.length} answered`;
@@ -322,7 +341,7 @@ function renderQuestion() {
       ? `<span>✔</span> Correct!`
       : `<span>✘</span> Incorrect — you chose <b>${picked.map((l) => l.toUpperCase()).join(", ") || "—"}</b>, the correct answer is <b>${correct.map((l) => l.toUpperCase()).join(", ")}</b>.`;
     $("exp-meta").textContent = `${q.lo} · ${q.k} · ${q.points} pt`;
-    $("explanation-body").innerHTML = q.explanation;
+    $("explanation-body").innerHTML = renderExplanation(q.explanation);
   } else {
     $("feedback").classList.add("hidden");
   }
