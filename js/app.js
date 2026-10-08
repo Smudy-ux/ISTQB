@@ -175,7 +175,7 @@ function restoreSession(sess) {
     const ex = window.EXAMS[examId];
     let q = null;
     for (const cand of ex.questions || []) if (String(cand.n) === String(n)) q = cand;
-    for (const cand of ex.extra || []) if (String(cand.n) === String(n)) q = cand;
+    for (const cand of ex.extras || []) if (String(cand.n) === String(n)) q = cand;
     if (!q) throw new Error("Cannot restore question " + k);
     q._key = k;
     return { examId, q };
@@ -274,14 +274,47 @@ function renderExplanation(html) {
     .replace(/\n(?=\s*\d{1,2}[.)]\s)/g, "<br>")
     .replace(/\n(?=\s*(?:i|ii|iii|iv|v)\. [A-Z"])/g, "<br>")
     .replace(/\n(?=\s*[ABCDEF][.)] [A-Z“"\'])/g, "<br>")
-    // color each verdict by its own wording ("a) Is not correct" must not
-    // render green just because it comes first)
-    // Color the correct verdict's heading green ("c) Is correct."). Negated
-    // verdicts ("a) Is not correct.") never match, so a wrong option's line
-    // can't borrow the success color — the old CSS painted the FIRST verdict
-    // green no matter which option it judged.
-    .replace(/<p><strong>([a-e]\)\s*(?:It is |Is )?(?!not\b)correct\.?)/gi,
-      (m, label) => `<p><strong class="vok">${label}</strong><strong>`);
+    // Verdict headings. Sets A and D store "<p><strong>a) Is not correct.
+    // …</strong>", but sets B and C keep the same lines bare ("<p>a) Is
+    // correct. …" for prose, "<li>d) Is correct. …" for list-form answers) —
+    // bare ones never picked up the green highlight, which is why only some
+    // questions showed it. Three passes: wrap bare negative verdicts
+    // neutral-bold, wrap bare positive verdicts green, then recolor
+    // already-wrapped set A/D positives (matched without the closing tag so
+    // paragraphs whose bold runs on stay intact). Each verdict is colored by
+    // its own wording — negated ones ("a) Is not correct.") stay neutral so a
+    // wrong option's line can't borrow the success color (the old CSS painted
+    // the FIRST verdict green regardless of which option it judged).
+    .replace(/(<(?:p|li)[^>]*>)\s*([a-f]\)\s*(?:It is |is |Is )?not correct\.?)/gi,
+      (m, open, v) => `${open}<strong>${v.trim()}</strong>`)
+    .replace(/(<(?:p|li)[^>]*>)\s*([a-f]\)\s*(?:It is |is |Is )?correct\.?)/gi,
+      (m, open, v) => `${open}<strong class="vok">${v.trim()}</strong>`)
+    .replace(/(<(?:p|li)[^>]*>)<strong>([a-f]\)\s*(?:It is |is |Is )?(?!not\b)correct\.?)/gi,
+      (m, open, v) => `${open}<strong class="vok">${v.trim()}</strong><strong>`);
+}
+
+// SVG exhibits ship inline light-mode colors (navy #0f2540 strokes/labels,
+// bright-blue #2563eb event text, #111/#333/#555 text, #fff fills). Inline
+// attributes beat the .exhibit CSS, and on the dark theme they render as
+// near-black on near-black or as a glaring accent. Rewrite inline hexes to
+// theme variables before injecting so diagrams follow the active theme.
+const SVG_THEME_HEXES = [
+  ["#0f2540", "var(--ink)"],      // navy strokes & labels (set A)
+  ["#2563eb", "var(--accent-ink)"], // bright-blue event labels (set A)
+  ["#1a2b4d", "var(--ink)"],
+  ["#111111", "var(--ink)"],
+  ["#111\b", "var(--ink)"],
+  ["#333333", "var(--ink-soft)"],
+  ["#333\b", "var(--ink-soft)"],
+  ["#555555", "var(--ink-faint)"],
+  ["#555\b", "var(--ink-faint)"],
+  ["#ffffff", "var(--card)"],
+  ["#fff\b", "var(--card)"]
+];
+function themedExhibit(html) {
+  if (!html) return html || "";
+  for (const [hex, varRef] of SVG_THEME_HEXES) html = html.replace(new RegExp(hex, "gi"), varRef);
+  return html;
 }
 
 function renderProgress() {
@@ -306,7 +339,7 @@ function renderQuestion() {
   flagBtn.querySelector("span").textContent = S.flags[key] ? "Flagged" : "Flag";
 
   $("q-stem").innerHTML = q.stem;
-  $("q-exhibit").innerHTML = q.exhibit || "";
+  $("q-exhibit").innerHTML = themedExhibit(q.exhibit);
 
   // options
   const wrap = $("q-options");

@@ -195,6 +195,9 @@ body.sidebar-hidden .sidebar { display: none; }
 .exhibit td:first-child, .exhibit th:first-child { text-align: left; }
 .exhibit svg { max-width: 100%; height: auto; display: block; margin: 10px 0; background: var(--card); }
 .exhibit svg text { fill: var(--ink); font-family: inherit; }
+/* event labels carry the svg's own .ev class; this beats both that class and
+   the generic text rule above, so verbs stay accent-colored in both themes */
+.exhibit svg text.ev { fill: var(--accent-ink); }
 .exhibit svg rect { fill: var(--card); }
 
 .options { margin-top: 18px; display: grid; gap: 8px; }

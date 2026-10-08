@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ISTQB CTFL 4.0 — Exam Simulator</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%232563eb'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>IQ</text></svg>">
+</head>
+<body>
+
+<!-- ══════════════════════ HOME / MODE SELECTION ══════════════════════ -->
+<div id="home" class="screen active">
+  <div class="home-inner">
+    <header class="home-hero">
+      <div class="logo-badge">ISTQB<span>®</span></div>
+      <h1>Certified Tester — Foundation Level (CTFL 4.0)</h1>
+      <p class="subtitle">Exam Simulator · 40 questions · Official sample exam question bank (Sets A–D)</p>
+    </header>
+
+    <div id="resume-banner" class="resume-banner hidden">
+      <span id="resume-text"></span>
+      <button id="btn-resume" class="btn btn-warning">Resume exam</button>
+      <button id="btn-discard" class="btn btn-ghost">Discard</button>
+    </div>
+
+    <div class="mode-cards">
+      <div class="mode-card" id="card-mock" data-mode="mock">
+        <div class="mode-icon">⏱️</div>
+        <h2>Mock Exam</h2>
+        <ul>
+          <li><strong>60 minutes</strong> countdown timer</li>
+          <li>40 questions, exam conditions</li>
+          <li>No feedback until you submit</li>
+          <li>Pass mark: <strong>65%</strong> (26/40)</li>
+          <li>Full review with explanations afterwards</li>
+        </ul>
+        <button class="btn btn-primary">Start Mock Exam</button>
+      </div>
+      <div class="mode-card" id="card-practice" data-mode="practice">
+        <div class="mode-icon">📚</div>
+        <h2>Practice / Learn</h2>
+        <ul>
+          <li><strong>No time limit</strong></li>
+          <li>40 questions</li>
+          <li>Instant feedback: correct / incorrect</li>
+          <li>Full explanation &amp; rationale after each answer</li>
+          <li>Reference to syllabus LO &amp; K-level</li>
+        </ul>
+        <button class="btn btn-primary">Start Practice</button>
+      </div>
+    </div>
+
+    <div class="options-panel">
+      <div class="option-group">
+        <label>Question set</label>
+        <div class="exam-picker" id="exam-picker">
+          <button data-exam="A" class="exam-btn">Set A</button>
+          <button data-exam="B" class="exam-btn">Set B</button>
+          <button data-exam="C" class="exam-btn">Set C</button>
+          <button data-exam="D" class="exam-btn">Set D</button>
+          <button data-exam="MIX" class="exam-btn mix">Mixed 40</button>
+        </div>
+        <p class="hint" id="exam-hint">The official 40-question sample exam, ordered by syllabus chapter.</p>
+      </div>
+      <div class="option-group">
+        <label class="toggle-row">
+          <input type="checkbox" id="shuffle-toggle" checked>
+          <span>Shuffle question order</span>
+        </label>
+        <p class="hint">Real exams mix chapters randomly. Shuffle is on by default for a realistic experience.</p>
+      </div>
+    </div>
+
+    <footer class="home-footer">
+      <p>Question bank: © ISTQB® CTFL v4.0 Sample Exams A–D — reproduced for non-commercial study use. Pass mark 65%. Calculator &amp; notepad available during the exam.</p>
+    </footer>
+  </div>
+</div>
+
+<!-- ══════════════════════ EXAM SCREEN ══════════════════════ -->
+<div id="exam" class="screen">
+  <header class="exam-header">
+    <div class="eh-left">
+      <button id="btn-quit" class="btn btn-ghost btn-sm" title="Leave exam">✕ Quit</button>
+      <div class="exam-title">
+        <span id="exam-name">ISTQB CTFL 4.0 — Sample Exam A</span>
+        <span id="exam-mode-badge" class="mode-badge">MOCK</span>
+      </div>
+    </div>
+    <div class="eh-right">
+      <span id="answered-count" class="answered-count" title="Questions answered">0 / 40 answered</span>
+      <div id="timer" class="timer hidden"><span id="timer-value">60:00</span></div>
+      <button id="btn-theme" class="btn btn-ghost btn-sm" title="Toggle dark mode">🌙</button>
+    </div>
+  </header>
+
+  <div class="exam-layout">
+    <main class="question-col">
+      <div class="qmeta">
+        <span class="qnum" id="q-number">Question 1 of 40</span>
+        <span class="qtags">
+          <span class="chip" id="q-points">1 point</span>
+          <span class="chip" id="q-select">Select ONE option</span>
+        </span>
+        <button id="btn-flag" class="btn btn-flag" title="Mark this question for review">🚩 <span>Flag</span></button>
+      </div>
+
+      <div class="question-card" id="question-card">
+        <div class="stem" id="q-stem"></div>
+        <div class="exhibit" id="q-exhibit"></div>
+        <div class="options" id="q-options"></div>
+      </div>
+
+      <div id="feedback" class="feedback hidden">
+        <div id="feedback-banner" class="feedback-banner"></div>
+        <div class="explanation-box">
+          <div class="explanation-head">
+            <span id="exp-title" class="exp-title">Explanation</span>
+            <span id="exp-meta" class="exp-meta"></span>
+          </div>
+          <div id="explanation-body"></div>
+        </div>
+      </div>
+
+      <div class="exam-footer-controls">
+        <button id="btn-prev" class="btn btn-secondary">← Previous</button>
+        <div class="footer-spacer"></div>
+        <button id="btn-check" class="btn btn-primary hidden">Check answer</button>
+        <button id="btn-reveal" class="btn btn-ghost hidden">Reveal answer</button>
+        <button id="btn-next" class="btn btn-secondary">Next →</button>
+        <button id="btn-submit" class="btn btn-success hidden">Submit exam</button>
+      </div>
+
+      <nav class="navigator" id="navigator"></nav>
+    </main>
+
+    <aside class="sidebar" id="sidebar">
+      <button id="sidebar-collapse" class="sidebar-collapse" title="Hide/show tools">⟨⟩</button>
+      <div class="tool tool-calc" id="tool-calc">
+        <div class="tool-head">🧮 Calculator</div>
+        <div class="calc">
+          <div class="calc-screen">
+            <div class="calc-history" id="calc-history">&nbsp;</div>
+            <input id="calc-display" class="calc-display" value="0" readonly autocomplete="off">
+          </div>
+          <div class="calc-grid" id="calc-grid">
+            <button class="calc-key fn" data-k="C">C</button>
+            <button class="calc-key fn" data-k="back">⌫</button>
+            <button class="calc-key fn" data-k="%">%</button>
+            <button class="calc-key op" data-k="/">÷</button>
+            <button class="calc-key" data-k="7">7</button>
+            <button class="calc-key" data-k="8">8</button>
+            <button class="calc-key" data-k="9">9</button>
+            <button class="calc-key op" data-k="*">×</button>
+            <button class="calc-key" data-k="4">4</button>
+            <button class="calc-key" data-k="5">5</button>
+            <button class="calc-key" data-k="6">6</button>
+            <button class="calc-key op" data-k="-">−</button>
+            <button class="calc-key" data-k="1">1</button>
+            <button class="calc-key" data-k="2">2</button>
+            <button class="calc-key" data-k="3">3</button>
+            <button class="calc-key op" data-k="+">+</button>
+            <button class="calc-key fn" data-k="neg">±</button>
+            <button class="calc-key" data-k="0">0</button>
+            <button class="calc-key" data-k=".">.</button>
+            <button class="calc-key eq" data-k="=">=</button>
+          </div>
+        </div>
+      </div>
+      <div class="tool tool-note" id="tool-note">
+        <div class="tool-head">📝 Notepad</div>
+        <textarea id="notepad" placeholder="Write your thoughts, calculations and eliminations here... (auto-saved)"></textarea>
+        <div class="note-actions">
+          <span id="note-count" class="note-count">0 characters</span>
+          <button id="note-download" class="btn btn-ghost btn-sm">⤓ Download</button>
+          <button id="note-clear" class="btn btn-ghost btn-sm">Clear</button>
+        </div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<!-- ══════════════════════ RESULTS SCREEN ══════════════════════ -->
+<div id="results" class="screen">
+  <div class="results-inner">
+    <div id="results-header" class="results-header">
+      <div id="verdict" class="verdict"></div>
+      <div id="score-big" class="score-big"></div>
+      <div id="score-sub" class="score-sub"></div>
+      <div id="results-stats" class="results-stats"></div>
+    </div>
+    <div id="chapter-breakdown" class="chapter-breakdown"></div>
+    <div class="results-actions">
+      <button id="btn-review" class="btn btn-primary">📖 Review all questions &amp; explanations</button>
+      <button id="btn-retry" class="btn btn-secondary">Retake this exam</button>
+      <button id="btn-home" class="btn btn-secondary">Home</button>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════ MODALS ══════════════════════ -->
+<div id="modal-overlay" class="modal-overlay hidden">
+  <div class="modal">
+    <h3 id="modal-title"></h3>
+    <p id="modal-text"></p>
+    <div class="modal-actions" id="modal-actions"></div>
+  </div>
+</div>
+
+<script src="../data/examA.js"></script>
+<script src="../data/examB.js"></script>
+<script src="../data/examC.js"></script>
+<script src="../data/examD.js"></script>
+<script src="../js/app.js"></script>
+<script src="../tools/mock-test-inject.js"></script></body>
+</html>
