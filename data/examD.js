@@ -475,28 +475,28 @@ window.EXAMS.D = {
    "k": "K2",
    "lo": "FL-3.2.2",
    "selectCount": 1,
-   "stem": "<p>Given the following descriptions of review activities: 1. Detected anomalies are deliberated upon, and determinations are reached regarding their status, ownership, and any further steps needed 2. Defects are recorded, and any needed updates are addressed prior to the acceptance of the work product 3. Reviewers employ techniques to come up with suggestions and questions about the work product and to spot anomalies 4. The objective of the review and its schedule are established to ensure a focused and efficient review 5. Participants are provided with access to the item being reviewed</p>\n<p>Which of the following is the CORRECT sequence in the review process of the activities that correspond to the descriptions?</p>",
+   "stem": "<p>Given the following descriptions of review activities:</p>\n<ol><li>Detected anomalies are deliberated upon, and determinations are reached regarding their status, ownership, and any further steps needed</li>\n<li>Defects are recorded, and any needed updates are addressed prior to the acceptance of the work product</li>\n<li>Reviewers employ techniques to come up with suggestions and questions about the work product and to spot anomalies</li>\n<li>The objective of the review and its schedule are established to ensure a focused and efficient review</li>\n<li>Participants are provided with access to the item being reviewed</li></ol>\n<p>Which of the following is the CORRECT sequence in the review process of the activities that correspond to the descriptions?</p>",
    "exhibit": null,
    "options": [
     {
      "letter": "a",
-     "text": "4–3 – 5–2 – 1"
+     "text": "4 &#8211; 3 &#8211; 5 &#8211; 2 &#8211; 1"
     },
     {
      "letter": "b",
-     "text": "4–5 – 3–1 – 2"
+     "text": "4 &#8211; 5 &#8211; 3 &#8211; 1 &#8211; 2"
     },
     {
      "letter": "c",
-     "text": "5–4 – 1–3 – 2"
+     "text": "5 &#8211; 4 &#8211; 1 &#8211; 3 &#8211; 2"
     },
     {
      "letter": "d",
-     "text": "5–4 – 3–2 – 1"
+     "text": "5 &#8211; 4 &#8211; 3 &#8211; 2 &#8211; 1"
     }
    ],
    "answer": "b",
-   "explanation": "<p>The five listed descriptions and the corresponding review process activities\n1. This describes part of the `communication and analysis' activity\n2. This describes part of the `fixing and reporting' activity\n3. This describes part of the `individual review' activity\n4. This describes part of the `planning' activity\n5. This describes part of the `review initiation' activity\n\nThe generic review process from ISO/IEC 20246, which is outlined in the\nsyllabus, comprises the following activities in this logical order:</p>\n<ul><li>Planning (4)</li><li>Review initiation (5)</li><li>Individual review (3)</li><li>Communication and analysis (1)</li><li>Fixing and reporting (2)</li></ul>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is not correct</strong></p>\n<p><strong>b) Is correct. The correct sequence of activities is: 4–5 – 3–1 – 2</strong></p>\n<p><strong>c) Is not correct</strong></p>\n<p><strong>d) Is not correct</strong></p>"
+   "explanation": "<p>The five listed descriptions and the corresponding review process activities\n1. This describes part of the `communication and analysis' activity\n2. This describes part of the `fixing and reporting' activity\n3. This describes part of the `individual review' activity\n4. This describes part of the `planning' activity\n5. This describes part of the `review initiation' activity\n\nThe generic review process from ISO/IEC 20246, which is outlined in the\nsyllabus, comprises the following activities in this logical order:</p>\n<ul><li>Planning (4)</li><li>Review initiation (5)</li><li>Individual review (3)</li><li>Communication and analysis (1)</li><li>Fixing and reporting (2)</li></ul>\n<p><strong>Thus:</strong></p>\n<p><strong>a) Is not correct</strong></p>\n<p><strong>b) Is correct. The correct sequence of activities is: 4 &#8211; 5 &#8211; 3 &#8211; 1 &#8211; 2</strong></p>\n<p><strong>c) Is not correct</strong></p>\n<p><strong>d) Is not correct</strong></p>"
   },
   {
    "n": 18,
@@ -562,7 +562,7 @@ window.EXAMS.D = {
    "k": "K3",
    "lo": "FL-4.2.1",
    "selectCount": 2,
-   "stem": "<p>The system for selling cinema tickets calculates the discount type based on the client's birth year (BY) and on the current year (CY) as follows:</p>\n<p>Let D be the difference between CY and BY, that is, D = CY – BY</p>\n<ul><li>If D &lt; 0 then print the error message \"birth year cannot be greater than</li></ul>\n<p>current year\"</p>\n<ul><li>If 0 D &lt; 18 then apply the student discount</li></ul>\n<ul><li>If 18 D &lt; 65 then apply no discount</li></ul>\n<ul><li>If D 65 then apply the pensioner discount</li></ul>\n<p>Your test suite already contains two test cases: • BY = 1990, CY = 2020, expected result: no discount • BY = 2030, CY = 2029, expected result: print the error message</p>\n<p>Which of the following test data sets should be added to achieve full valid equivalence partitioning coverage for the discount type?</p>",
+   "stem": "<p>The system for selling cinema tickets calculates the discount type based on the client's birth year (BY) and on the current year (CY) as follows:</p>\n<p>Let D be the difference between CY and BY, that is, D = CY &#8211; BY</p>\n<ul><li>If D &lt; 0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; then print the error message \"birth year cannot be greater than current year\"</li>\n<li>If 0 &le; D &lt; 18 &nbsp; then apply the student discount</li>\n<li>If 18 &le; D &lt; 65 &nbsp; then apply no discount</li>\n<li>If D &ge; 65 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; then apply the pensioner discount</li></ul>\n<p>Your test suite already contains two test cases:</p>\n<ul><li>BY = 1990, CY = 2020, expected result: no discount</li>\n<li>BY = 2030, CY = 2029, expected result: print the error message</li></ul>\n<p>Which of the following test data sets should be added to achieve full valid equivalence partitioning coverage for the discount type?</p>",
    "exhibit": null,
    "options": [
     {
@@ -590,7 +590,7 @@ window.EXAMS.D = {
     "b",
     "e"
    ],
-   "explanation": "<p>There are two equivalence partitions that are not yet covered, which\ncorrespond to \"student discount\" and \"pensioner discount\".</p>\n<p><strong>a) Is not correct. CY – BY = 64, so these inputs correspond to the already\ncovered \"no discount\" partition</strong></p>\n<p><strong>b) Is correct. CY – BY = 65, so these inputs correspond to a partition that\n\nis not yet covered (\"pensioner discount\")</strong></p>\n<p><strong>c) Is not correct. CY – BY = –65, so these inputs correspond to the already\n\ncovered \"error message\" partition</strong></p>\n<p><strong>d) Is not correct. CY – BY = 18, so these inputs correspond to the already\n\ncovered \"no discount\" partition</strong></p>\n<p><strong>e) Is correct. CY – BY = 0, so these inputs correspond to a partition that is</strong></p>"
+   "explanation": "<p>There are two equivalence partitions that are not yet covered, which\ncorrespond to \"student discount\" and \"pensioner discount\".</p>\n<p><strong>a) Is not correct. CY – BY = 64, so these inputs correspond to the already\ncovered \"no discount\" partition</strong></p>\n<p><strong>b) Is correct. CY – BY = 65, so these inputs correspond to a partition that\n\nis not yet covered (\"pensioner discount\")</strong></p>\n<p><strong>c) Is not correct. CY – BY = –65, so these inputs correspond to the already\n\ncovered \"error message\" partition</strong></p>\n<p><strong>d) Is not correct. CY – BY = 18, so these inputs correspond to the already\n\ncovered \"no discount\" partition</strong></p>\n<p><strong>e) Is correct. CY – BY = 0, so these inputs correspond to a partition that is\nnot yet covered (\"student discount\")</strong></p>"
   },
   {
    "n": 21,
@@ -1105,8 +1105,8 @@ window.EXAMS.D = {
    "k": "K3",
    "lo": "FL-5.5.1",
    "selectCount": 1,
-   "stem": "<p>Consider the following defect report for a Book Lending System.</p>\n<p>Defect ID: 001 | Title: Unable to Return a Book |</p>\n<p>Severity: High | Priority: |</p>\n<p>Environment: Windows 10, Google Chrome</p>\n<p>Description: When attempting to return a book using the Book Return feature, the system does not register the return and the book remains checked out to the user.</p>\n<p>Steps to Reproduce: Login to the Book Lending System as a user who has checked out a book. Click on the \"Book Return\" button for the book that has been checked out. System does not register the return and the book remains checked out.</p>\n<p>Expected Result: The book should be returned and no longer appear as checked out to the user. Actual Result: The book remains checked out to the user and is not registered as returned in the system.</p>\n<p>Attachments: [empty list]</p>\n<p>Which of the following is MOST likely to help the developer reproduce the failure quickly?</p>",
-   "exhibit": null,
+   "stem": "<p>Consider the following defect report for a Book Lending System.</p>",
+   "exhibit": "<div class=\"exhibit\"><table><tr><td style=\"text-align:left;line-height:1.7;padding:12px 18px\"><strong>Defect ID:</strong> 001 &nbsp;|&nbsp; <strong>Title:</strong> Unable to Return a Book &nbsp;|&nbsp;<br><strong>Severity:</strong> High &nbsp;|&nbsp; <strong>Priority:</strong> &nbsp;|&nbsp;<br><strong>Environment:</strong> Windows 10, Google Chrome<br><strong>Description:</strong> When attempting to return a book using the Book Return feature, the system does not register the return and the book remains checked out to the user.<br><strong>Steps to Reproduce:</strong><br>&nbsp;Login to the Book Lending System as a user who has checked out a book.<br>&nbsp;Click on the \"Book Return\" button for the book that has been checked out.<br>&nbsp;System does not register the return and the book remains checked out.<br><strong>Expected Result:</strong> The book should be returned and no longer appear as checked out to the user.<br><strong>Actual Result:</strong> The book remains checked out to the user and is not registered as returned in the system.<br><strong>Attachments:</strong> [empty list]</td></tr></table></div><p>Which of the following is MOST likely to help the developer reproduce the failure quickly?</p>",
    "options": [
     {
      "letter": "a",
