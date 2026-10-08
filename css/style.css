@@ -361,17 +361,56 @@ body:not(.sidebar-hidden) .sidebar-collapse { right: -1px; }
 
 /* ═══════════ RESPONSIVE ═══════════ */
 @media (max-width: 1080px) {
-  .exam-layout { grid-template-columns: 1fr; }
+  /* minmax(0,1fr), not plain 1fr: a 1fr track floors at its content's
+     min-content width, which pinned the question column at ~633px and forced
+     sideways scrolling on phones */
+  .exam-layout { grid-template-columns: minmax(0, 1fr); }
+  .question-col { min-width: 0; }
   .sidebar { position: static; max-height: none; }
   .sidebar-collapse { display: none; }
   .tool-note { max-height: 300px; }
   .navigator { grid-template-columns: repeat(8, 1fr); }
 }
 @media (max-width: 680px) {
+  html { -webkit-text-size-adjust: 100%; }
   .mode-cards, .options-panel { grid-template-columns: 1fr; }
-  .exam-header { flex-wrap: wrap; gap: 8px; }
-  .exam-title { font-size: 14px; }
+  .home-inner { padding: 36px 16px 32px; }
+
+  /* header: let the long exam name shrink/ellipsis instead of pushing the
+     rest of the row off-screen; hide the mode word from it (badge shows it) */
+  .exam-header { flex-wrap: wrap; gap: 8px; padding: 8px 10px; }
+  .exam-title { font-size: 14px; min-width: 0; overflow: hidden; }
+  #exam-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .answered-count { font-size: 12.5px; }
+  .exam-layout { padding: 12px 12px 60px; }
+
+  /* question area */
+  .qmeta { gap: 6px; }
+  .btn-flag { margin-left: auto; padding: 5px 9px; }
   .question-card { padding: 16px; }
+  .stem { font-size: 15px; }
+  .exhibit { overflow-x: auto; }               /* wide tables/diagrams pan instead of bursting the card */
+  .option { padding: 10px 11px; font-size: 14.5px; }
+
+  /* question navigation: controls stay reachable at the bottom of the screen,
+     buttons become row-wide thumb targets */
+  .exam-footer-controls {
+    position: sticky; bottom: 0; z-index: 40;
+    flex-wrap: wrap; gap: 8px; margin: 16px 0;
+    padding: 10px; background: var(--bg); border: 1px solid var(--line); border-radius: var(--radius);
+  }
+  .exam-footer-controls > .btn { flex: 1 1 auto; min-height: 44px; }
+  .footer-spacer { display: none; }
+
+  /* grid: 8 cols drops the last cell under a 40px thumb target on phones */
+  .navigator { grid-template-columns: repeat(6, 1fr); }
+  .nav-cell { aspect-ratio: auto; min-height: 42px; }
+
+  /* tools stacked below: trim dead space; 16px input size avoids iOS zoom-on-focus */
+  .tool-note { min-height: 200px; max-height: 280px; }
+  #notepad { font-size: 16px; }
+
+  /* results */
   .chapter-row { grid-template-columns: 120px 1fr 55px; }
   .score-big { font-size: 44px; }
 }

@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ISTQB CTFL 4.0 — Exam Simulator</title>
 <link rel="stylesheet" href="../css/style.css">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%232563eb'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>IQ</text></svg>">
+<link rel="icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;rect width='100' height='100' rx='18' fill='%232563eb'/&gt;&lt;text x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'&gt;IQ&lt;/text&gt;&lt;/svg&gt;">
 </head>
-<body>
+<body class="dark">
 
 <!-- ══════════════════════ HOME / MODE SELECTION ══════════════════════ -->
-<div id="home" class="screen active">
+<div id="home" class="screen">
   <div class="home-inner">
     <header class="home-hero">
       <div class="logo-badge">ISTQB<span>®</span></div>
@@ -55,7 +54,7 @@
       <div class="option-group">
         <label>Question set</label>
         <div class="exam-picker" id="exam-picker">
-          <button data-exam="A" class="exam-btn">Set A</button>
+          <button data-exam="A" class="exam-btn active">Set A</button>
           <button data-exam="B" class="exam-btn">Set B</button>
           <button data-exam="C" class="exam-btn">Set C</button>
           <button data-exam="D" class="exam-btn">Set D</button>
@@ -65,7 +64,7 @@
       </div>
       <div class="option-group">
         <label class="toggle-row">
-          <input type="checkbox" id="shuffle-toggle" checked>
+          <input type="checkbox" id="shuffle-toggle" checked="">
           <span>Shuffle question order</span>
         </label>
         <p class="hint">Real exams mix chapters randomly. Shuffle is on by default for a realistic experience.</p>
@@ -79,19 +78,19 @@
 </div>
 
 <!-- ══════════════════════ EXAM SCREEN ══════════════════════ -->
-<div id="exam" class="screen">
+<div id="exam" class="screen active">
   <header class="exam-header">
     <div class="eh-left">
       <button id="btn-quit" class="btn btn-ghost btn-sm" title="Leave exam">✕ Quit</button>
       <div class="exam-title">
         <span id="exam-name">ISTQB CTFL 4.0 — Sample Exam A</span>
-        <span id="exam-mode-badge" class="mode-badge">MOCK</span>
+        <span id="exam-mode-badge" class="mode-badge practice">PRACTICE</span>
       </div>
     </div>
     <div class="eh-right">
       <span id="answered-count" class="answered-count" title="Questions answered">0 / 40 answered</span>
       <div id="timer" class="timer hidden"><span id="timer-value">60:00</span></div>
-      <button id="btn-theme" class="btn btn-ghost btn-sm" title="Toggle dark mode">🌙</button>
+      <button id="btn-theme" class="btn btn-ghost btn-sm" title="Toggle dark mode">☀️</button>
     </div>
   </header>
 
@@ -107,9 +106,9 @@
       </div>
 
       <div class="question-card" id="question-card">
-        <div class="stem" id="q-stem"></div>
+        <div class="stem" id="q-stem"><p>Which of the following statements describe a valid test objective?</p></div>
         <div class="exhibit" id="q-exhibit"></div>
-        <div class="options" id="q-options"></div>
+        <div class="options" id="q-options"><div class="option" data-letter="a"><span class="letter">A</span><span class="opt-text">To prove that there are no unfixed defects in the system under test</span></div><div class="option" data-letter="b"><span class="letter">B</span><span class="opt-text">To prove that there will be no failures after the implementation of the system into production</span></div><div class="option" data-letter="c"><span class="letter">C</span><span class="opt-text">To reduce the risk level of the test object and to build confidence in the quality level</span></div><div class="option" data-letter="d"><span class="letter">D</span><span class="opt-text">To verify that there are no untested combinations of inputs</span></div></div>
       </div>
 
       <div id="feedback" class="feedback hidden">
@@ -124,15 +123,15 @@
       </div>
 
       <div class="exam-footer-controls">
-        <button id="btn-prev" class="btn btn-secondary">← Previous</button>
+        <button id="btn-prev" class="btn btn-secondary" disabled="">← Previous</button>
         <div class="footer-spacer"></div>
-        <button id="btn-check" class="btn btn-primary hidden">Check answer</button>
-        <button id="btn-reveal" class="btn btn-ghost hidden">Reveal answer</button>
+        <button id="btn-check" class="btn btn-primary" disabled="">Check answer</button>
+        <button id="btn-reveal" class="btn btn-ghost">Reveal answer</button>
         <button id="btn-next" class="btn btn-secondary">Next →</button>
-        <button id="btn-submit" class="btn btn-success hidden">Submit exam</button>
+        <button id="btn-submit" class="btn btn-success">Finish &amp; see results</button>
       </div>
 
-      <nav class="navigator" id="navigator"></nav>
+      <nav class="navigator" id="navigator"><button class="nav-cell current" title="Question 1 · FL-1.1.1">1</button><button class="nav-cell" title="Question 2 · FL-1.2.1">2</button><button class="nav-cell" title="Question 3 · FL-1.3.1">3</button><button class="nav-cell" title="Question 4 · FL-1.4.1">4</button><button class="nav-cell" title="Question 5 · FL-1.4.2">5</button><button class="nav-cell" title="Question 6 · FL-1.4.5">6</button><button class="nav-cell" title="Question 7 · FL-1.5.1">7</button><button class="nav-cell" title="Question 8 · FL-1.5.2">8</button><button class="nav-cell" title="Question 9 · FL-2.1.2">9</button><button class="nav-cell" title="Question 10 · FL-2.1.3">10</button><button class="nav-cell" title="Question 11 · FL-2.1.5">11</button><button class="nav-cell" title="Question 12 · FL-2.1.6">12</button><button class="nav-cell" title="Question 13 · FL-2.2.1">13</button><button class="nav-cell" title="Question 14 · FL-2.2.3">14</button><button class="nav-cell" title="Question 15 · FL-3.1.2">15</button><button class="nav-cell" title="Question 16 · FL-3.2.1">16</button><button class="nav-cell" title="Question 17 · FL-3.2.4">17</button><button class="nav-cell" title="Question 18 · FL-3.2.5">18</button><button class="nav-cell" title="Question 19 · FL-4.1.1">19</button><button class="nav-cell" title="Question 20 · FL-4.2.1">20</button><button class="nav-cell" title="Question 21 · FL-4.2.2">21</button><button class="nav-cell" title="Question 22 · FL-4.2.3">22</button><button class="nav-cell" title="Question 23 · FL-4.2.4">23</button><button class="nav-cell" title="Question 24 · FL-4.3.1">24</button><button class="nav-cell" title="Question 25 · FL-4.3.3">25</button><button class="nav-cell" title="Question 26 · FL-4.4.1">26</button><button class="nav-cell" title="Question 27 · FL-4.4.2">27</button><button class="nav-cell" title="Question 28 · FL-4.5.2">28</button><button class="nav-cell" title="Question 29 · FL-4.5.3">29</button><button class="nav-cell" title="Question 30 · FL-5.1.2">30</button><button class="nav-cell" title="Question 31 · FL-5.1.3">31</button><button class="nav-cell" title="Question 32 · FL-5.1.4">32</button><button class="nav-cell" title="Question 33 · FL-5.1.5">33</button><button class="nav-cell" title="Question 34 · FL-5.1.7">34</button><button class="nav-cell" title="Question 35 · FL-5.2.4">35</button><button class="nav-cell" title="Question 36 · FL-5.3.3">36</button><button class="nav-cell" title="Question 37 · FL-5.4.1">37</button><button class="nav-cell" title="Question 38 · FL-5.5.1">38</button><button class="nav-cell" title="Question 39 · FL-6.1.1">39</button><button class="nav-cell" title="Question 40 · FL-6.2.1">40</button></nav>
     </main>
 
     <aside class="sidebar" id="sidebar">
@@ -142,7 +141,7 @@
         <div class="calc">
           <div class="calc-screen">
             <div class="calc-history" id="calc-history">&nbsp;</div>
-            <input id="calc-display" class="calc-display" value="0" readonly autocomplete="off">
+            <input id="calc-display" class="calc-display" value="0" readonly="" autocomplete="off">
           </div>
           <div class="calc-grid" id="calc-grid">
             <button class="calc-key fn" data-k="C">C</button>
@@ -214,5 +213,4 @@
 <script src="../data/examD.js"></script>
 <script src="../js/app.js"></script>
 <script src="../tools/shot-inject.js"></script>
-<script src="../tools/mob-diag-inject.js"></script></body>
-</html>
+</body></html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>mobile shot</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div id="home" class="screen active"><div class="home-inner">…</div></div>
+<div id="exam" class="screen">
+  <header class="exam-header">
+    <div class="eh-left">
+      <button id="btn-quit" class="btn btn-ghost btn-sm">✕ Quit</button>
+      <div class="exam-title"><span id="exam-name">ISTQB CTFL 4.0 — Sample Exam A</span><span id="exam-mode-badge" class="mode-badge">MOCK</span></div>
+    </div>
+    <div class="eh-right">
+      <span id="answered-count" class="answered-count">0 / 40 answered</span>
+      <div id="timer" class="timer hidden"><span id="timer-value">60:00</span></div>
+      <button id="btn-theme" class="btn btn-ghost btn-sm">🌙</button>
+    </div>
+  </header>
+  <div class="exam-layout">
+    <main class="question-col"></main>
+    <aside class="sidebar" id="sidebar"></aside>
+  </div>
+</div>
+<div id="results" class="screen"></div>
+<div id="modal-overlay" class="modal-overlay hidden"><div class="modal"></div></div>
+<script src="../data/examA.js"></script>
+<script src="../data/examB.js"></script>
+<script src="../data/examC.js"></script>
+<script src="../data/examD.js"></script>
+<script src="../js/app.js"></script>
+</body>
+</html>
