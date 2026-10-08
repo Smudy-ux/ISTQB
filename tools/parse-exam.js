@@ -12,11 +12,45 @@ const keyFile = process.argv[6] || null;
 
 const OVERRIDES = {
   A: {
+    14: {
+      // execution log rendered as a table, embedded in the stem (official order)
+      stem: `<p>You are testing a user story with three acceptance criteria: AC1, AC2 and AC3. AC1 is covered by test case TC1, AC2 by TC2, and AC3 by TC3. The test execution history had three test runs on three consecutive versions of the software as follows:</p>
+<div class="exhibit"><table>
+<thead><tr><th></th><th>Execution 1</th><th>Execution 2</th><th>Execution 3</th></tr></thead>
+<tbody>
+<tr><td>TC1</td><td>(1) Failed</td><td>(4) Passed</td><td>(7) Passed</td></tr>
+<tr><td>TC2</td><td>(2) Passed</td><td>(5) Failed</td><td>(8) Passed</td></tr>
+<tr><td>TC3</td><td>(3) Failed</td><td>(6) Failed</td><td>(9) Passed</td></tr>
+</tbody></table></div>
+<p>Tests are repeated once you are informed that all defects found in the test run are corrected and a new version of the software is available.</p>
+<p>Which of the above tests are executed as regression tests?</p>`,
+      exhibit: null
+    },
+    21: {
+      // grade-vs-result test-case table, embedded in the stem (official order)
+      stem: `<p>You are testing a system that calculates the final course grade for a given student.</p>
+<p>The final grade is assigned based on the final result, according to the following rules:</p>
+<ul><li>0–50 points: failed</li><li>51–60 points: fair</li><li>61–70 points: satisfactory</li><li>71–80 points: good</li><li>81–90 points: very good</li><li>91–100 points: excellent</li></ul>
+<p>You have prepared the following set of test cases:</p>
+<div class="exhibit"><table>
+<thead><tr><th></th><th>Final result</th><th>Final grade</th></tr></thead>
+<tbody>
+<tr><td>TC1</td><td>91</td><td>excellent</td></tr>
+<tr><td>TC2</td><td>50</td><td>failed</td></tr>
+<tr><td>TC3</td><td>81</td><td>very good</td></tr>
+<tr><td>TC4</td><td>60</td><td>fair</td></tr>
+<tr><td>TC5</td><td>70</td><td>satisfactory</td></tr>
+<tr><td>TC6</td><td>80</td><td>good</td></tr>
+</tbody></table></div>
+<p>What is the 2-value boundary value analysis (BVA) coverage for the final result that is achieved with the existing test cases?</p>`,
+      exhibit: null
+    },
     22: {
       stem: `<p>Your favorite bicycle daily rental store has just introduced a new Customer Relationship Management system and asked you, one of their most loyal members, to test it.</p>
 <p>The implemented features are as follows:</p>
 <ul><li>Anyone can rent a bicycle, but members receive a 20% discount</li><li>However, if the return deadline is missed, the discount is no longer available</li><li>After 15 rentals, members get a gift: a T-Shirt</li></ul>
-<p>Decision table describing the implemented features looks as follows:</p>`,
+<p>Decision table describing the implemented features looks as follows:</p>
+<p>Based ONLY on the feature description of the Customer Relationship Management system, which of the above rules describes an impossible situation?</p>`,
       exhibit: `<div class="exhibit"><table>
 <thead><tr><th>Conditions</th><th>R1</th><th>R2</th><th>R3</th><th>R4</th><th>R5</th><th>R6</th><th>R7</th><th>R8</th></tr></thead>
 <tbody>
@@ -24,8 +58,8 @@ const OVERRIDES = {
 <tr><td>Missed deadline</td><td>T</td><td>F</td><td>T</td><td>F</td><td>T</td><td>F</td><td>F</td><td>T</td></tr>
 <tr><td>15th rental</td><td>F</td><td>F</td><td>T</td><td>T</td><td>F</td><td>F</td><td>T</td><td>T</td></tr>
 <tr><td><strong>Actions</strong></td><td colspan="8"></td></tr>
-<tr><td>20% discount</td><td></td><td></td><td></td><td></td><td></td><td></td><td>X</td><td></td></tr>
-<tr><td>Gift T-Shirt</td><td></td><td>X</td><td></td><td></td><td></td><td>X</td><td>X</td><td></td></tr>
+<tr><td>20% discount</td><td></td><td>X</td><td></td><td>X</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Gift T-Shirt</td><td></td><td></td><td>X</td><td>X</td><td></td><td></td><td></td><td>X</td></tr>
 </tbody></table></div>`
     },
     23: {
@@ -59,6 +93,30 @@ const OVERRIDES = {
 <tr><td>Round 2</td><td>13</td><td>8</td><td>8</td><td>34</td><td>13</td><td>8</td><td>5</td></tr>
 <tr><td>Round 3</td><td>13</td><td>8</td><td>13</td><td>13</td><td>13</td><td>13</td><td>8</td></tr>
 </tbody></table></div>`
+    }
+  },
+  B: {
+    23: {
+      stem: `<p>A storage system can store up to three elements and is modeled by the following state transition diagram. The variable N represents the number of currently stored elements.</p>
+<p>Which of the following test cases, represented as sequences of events, achieves the highest level of valid transitions coverage?</p>`,
+      exhibit: `<div class="exhibit"><svg viewBox="0 0 640 270" xmlns="http://www.w3.org/2000/svg"><defs><marker id="arrB23" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#333"/></marker></defs><rect x="30" y="105" width="130" height="60" rx="30" fill="none" stroke="#333" stroke-width="1.6"/><text x="95" y="140" text-anchor="middle" font-size="13" font-weight="bold" fill="#333">START</text><rect x="255" y="105" width="130" height="60" rx="30" fill="none" stroke="#333" stroke-width="1.6"/><text x="320" y="132" text-anchor="middle" font-size="13" font-weight="bold" fill="#333">NOT FULL</text><text x="320" y="150" text-anchor="middle" font-size="11" fill="#555">N = 0, 1 or 2</text><rect x="480" y="105" width="130" height="60" rx="30" fill="none" stroke="#333" stroke-width="1.6"/><text x="545" y="132" text-anchor="middle" font-size="13" font-weight="bold" fill="#333">FULL</text><text x="545" y="150" text-anchor="middle" font-size="11" fill="#555">N = 3</text><path d="M160,138 L251,138" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#arrB23)"/><text x="207" y="124" text-anchor="middle" font-size="11" fill="#333">Add / N := 1  (E1)</text><path d="M292,107 C292,55 352,55 348,103" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#arrB23)"/><text x="320" y="40" text-anchor="middle" font-size="11" fill="#333">Add [N &lt; 2] / N := N + 1  (E2)</text><path d="M292,163 C292,215 352,215 348,167" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#arrB23)"/><text x="320" y="240" text-anchor="middle" font-size="11" fill="#333">Remove [N &gt; 0] / N := N &#8722; 1  (E3)</text><path d="M378,120 C400,70 470,74 482,106" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#arrB23)"/><text x="432" y="62" text-anchor="middle" font-size="11" fill="#333">Add [N = 2] / N := N + 1  (E4)</text><path d="M482,166 C462,200 390,198 378,158" fill="none" stroke="#333" stroke-width="1.5" marker-end="url(#arrB23)"/><text x="432" y="196" text-anchor="middle" font-size="11" fill="#333">Remove / N := N &#8722; 1  (E5)</text></svg></div>`
+    },
+    31: {
+      stem: `<p>You want to estimate the test effort for the new project using estimation based on ratios. You calculate the test-to-development effort ratio using averaged data for both development effort and test effort from four historical projects similar to the new one. The table shows this historical data.</p>
+<p>The estimated development effort for the new project is $800,000. What is your estimate of the test effort in this project?</p>`,
+      exhibit: `<div class="exhibit"><table>
+<thead><tr><th>Project</th><th>Development effort ($)</th><th>Test effort ($)</th></tr></thead>
+<tbody>
+<tr><td>P1</td><td>800,000</td><td>40,000</td></tr>
+<tr><td>P2</td><td>1,200,000</td><td>130,000</td></tr>
+<tr><td>P3</td><td>600,000</td><td>70,000</td></tr>
+<tr><td>P4</td><td>1,000,000</td><td>120,000</td></tr>
+</tbody></table></div>`
+    },
+    38: {
+      stem: `<p>You are testing a sort function that gets a set of numbers as input and returns the same set of numbers sorted in ascending order. The log from the test execution looks as follows.</p>
+<p>Which of the following provides the BEST description of the failure that can be used in a defect report?</p>`,
+      exhibit: `<div class="exhibit"><pre>Environment configuration: sort function build 2.002.2182, test case set: TCS-3, # of TCs: 5\n\nTest run ID: 736\n\nStart 12:43:21.003\n\n12:43:21.003 Execution of TC1. Input: 3.               Output: 3.     Result: passed\n12:43:21.003 Execution of TC2. Input: 3 11 6 5. Output: 3 5 6 11. Result: passed\n12:43:21.004 Execution of TC3. Input: 8 7 3 7 1. Output: 1 3 7 8.     Result: failed\n12:43:21.005 Execution of TC4. Input: -2 -2 -2 -3 -3. Output: -3 -2.  Result: failed\n12:43:21.005 Execution of TC5. Input: 0 -2 0 3 4 4. Output: -2 0 3 4. Result: failed\n\nEnd 12:43:21.005\n\nTotal time of test cycle: 0:00:00.002</pre></div>`
     }
   },
   D: {
