@@ -1,0 +1,1339 @@
+       Sample Exam ­ Answers
+                             Sample Exam set B
+                                   Version 1.7
+
+  ISTQB® Certified Tester Syllabus
+             Foundation Level
+
+               Compatible with Syllabus version 4.0.1
+
+International Software Testing Qualifications Board
+
+Version 1.7                                            Released April 1, 2025
+
+© International Software Testing Qualifications Board
+ Certified Tester, Foundation Level
+ Sample Exam set B
+ Sample Exam ­ Answers
+
+Copyright Notice
+
+Copyright Notice © International Software Testing Qualifications Board (hereinafter called
+ISTQB®).
+
+ISTQB® is a registered trademark of the International Software Testing Qualifications Board.
+
+All rights reserved.
+
+The authors hereby transfer the copyright to the ISTQB®. The authors (as current copyright
+holders) and ISTQB® (as the future copyright holder) have agreed to the following conditions of
+use:
+
+Extracts, for non-commercial use, from this document may be copied if the source is
+acknowledged.
+
+Any Accredited Training Provider may use this sample exam in their training course if the authors
+and the ISTQB® are acknowledged as the source and copyright owners of the sample exam and
+provided that any advertisement of such a training course is done only after official Accreditation of
+the training materials has been received from an ISTQB®-recognized Member Board.
+
+Any individual or group of individuals may use this sample exam in articles and books, if the
+authors and the ISTQB® are acknowledged as the source and copyright owners of the sample
+exam.
+
+Any other use of this sample exam is prohibited without first obtaining the approval in writing of the
+ISTQB®.
+
+Any ISTQB®-recognized Member Board may translate this sample exam provided they reproduce
+the abovementioned Copyright Notice in the translated version of the sample exam.
+
+Document Responsibility
+
+The ISTQB® Examination Working Group is responsible for this document.
+
+This document is maintained by a core team from ISTQB® consisting of the Syllabus Working
+Group and Exam Working Group.
+
+Acknowledgements
+
+This document was produced by a core team from the ISTQB®: Stuart Reid and Adam Roman
+
+The core team thanks the Exam Working Group review team, the Syllabus Working Group and
+Member Boards for their suggestions and input.
+
+Version 1.7                                            Page 2 of 37  April 1, 2025
+
+© International Software Testing Qualifications Board
+ Certified Tester, Foundation Level
+ Sample Exam set B
+ Sample Exam ­ Answers
+
+Revision History
+
+Sample Exam ­ Answers Layout Template used:            Version 2.11 Date: October 16, 2023
+
+Version  Date                                          Remarks
+
+1.7      April 1, 2025                                 Correction of usage of Glossary terms
+1.6      July 8, 2024                                  Correction of Question #32
+1.5      May 29, 2024                                  Minor correction of Answer: #28
+1.4      April 12, 2024                                Cleanup of Answer: #2
+1.3      January 8, 2024                               Bump to match Question document
+1.2      December 5, 2023                              Correction of LO for Question: #15
+1.1      November 15, 2023                             Bump to match Question document
+1.0      October 16 2023                               First version
+
+Version 1.7                                            Page 3 of 37                           April 1, 2025
+
+© International Software Testing Qualifications Board
+ Certified Tester, Foundation Level
+ Sample Exam set B
+ Sample Exam ­ Answers
+
+Table of Contents
+
+Copyright Notice ............................................................................................................................. 2
+Document Responsibility................................................................................................................. 2
+Acknowledgements......................................................................................................................... 2
+Revision History .............................................................................................................................. 3
+Table of Contents............................................................................................................................ 4
+Introduction ..................................................................................................................................... 5
+
+   Purpose of this document ............................................................................................................ 5
+   Instructions.................................................................................................................................. 5
+Answer Key..................................................................................................................................... 6
+Answers .......................................................................................................................................... 7
+
+      1 ................................................................................................................................................................. 7
+      2 ................................................................................................................................................................. 8
+      3 ................................................................................................................................................................. 9
+      4 ............................................................................................................................................................... 10
+      5 ............................................................................................................................................................... 11
+      6 ............................................................................................................................................................... 12
+      7 ............................................................................................................................................................... 13
+      8 ............................................................................................................................................................... 14
+      9 ............................................................................................................................................................... 15
+      10 ............................................................................................................................................................. 16
+      11 ............................................................................................................................................................. 16
+      12 ............................................................................................................................................................. 17
+      13 ............................................................................................................................................................. 18
+      14 ............................................................................................................................................................. 18
+      15 ............................................................................................................................................................. 19
+      16 ............................................................................................................................................................. 20
+      17 ............................................................................................................................................................. 21
+      18 ............................................................................................................................................................. 22
+      19 ............................................................................................................................................................. 23
+      20 ............................................................................................................................................................. 24
+      21 ............................................................................................................................................................. 25
+      22 ............................................................................................................................................................. 26
+      23 ............................................................................................................................................................. 27
+      24 ............................................................................................................................................................. 28
+      25 ............................................................................................................................................................. 29
+      26 ............................................................................................................................................................. 30
+      27 ............................................................................................................................................................. 31
+      28 ............................................................................................................................................................. 31
+      29 ............................................................................................................................................................. 31
+      30 ............................................................................................................................................................. 32
+      31 ............................................................................................................................................................. 32
+      32 ............................................................................................................................................................. 33
+      33 ............................................................................................................................................................. 33
+      34 ............................................................................................................................................................. 34
+      35 ............................................................................................................................................................. 34
+      36 ............................................................................................................................................................. 35
+      37 ............................................................................................................................................................. 35
+      38 ............................................................................................................................................................. 36
+      39 ............................................................................................................................................................. 36
+      40 ............................................................................................................................................................. 37
+
+Version 1.7                                            Page 4 of 37  April 1, 2025
+
+© International Software Testing Qualifications Board
+ Certified Tester, Foundation Level
+ Sample Exam set B
+ Sample Exam ­ Answers
+
+Introduction
+
+Purpose of this document
+
+The example questions and answers and associated justifications in this sample exam have been
+created by a team of subject matter experts and experienced question writers with the aim of:
+
+    · Assisting ISTQB® Member Boards and Exam Boards in their question writing activities
+    · Providing training providers and exam candidates with examples of exam questions
+
+These questions cannot be used as-is in any official examination.
+
+Note, that real exams may include a wide variety of questions, and this sample exam is not
+intended to include examples of all possible question types, styles or lengths, also this sample
+exam may both be more difficult or less difficult than any official exam.
+
+Instructions
+
+In this document you may find:
+
+    · Answer Key table, including for each correct answer:
+              - K-level, Learning Objective, and Point value
+
+    · Answer sets, including for all questions:
+              - Correct answer
+              - Justification for each response (answer) option
+              - K-level, Learning Objective, and Point value
+
+    · Additional answer sets, including for all questions [does not apply to all sample exams]:
+              - Correct answer
+              - Justification for each response (answer) option
+              - K-level, Learning Objective, and Point value
+
+    · Questions are contained in a separate document
+
+Version 1.7                                            Page 5 of 37  April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Answer Key
+
+ Question   Correct Answer                                LO     K-Level Points   Question   Correct Answer     LO     K-Level Points
+Number (#)                                                                       Number (#)
+                      d                                FL-1.2.1  K2  1                                 d     FL-4.2.2  K3  1
+       1              b                                FL-1.2.2                        21              b     FL-4.2.3
+       2              d                                FL-1.3.1  K1  1                 22              c     FL-4.2.4  K3  1
+       3              a                                FL-1.4.1                        23              b     FL-4.3.1
+       4              c                                FL-1.4.2  K2  1                 24              c     FL-4.3.2  K3  1
+       5              b                                FL-1.4.4                        25            a, e    FL-4.4.2
+       6              b                                FL-1.5.1  K2  1                 26              d     FL-4.4.3  K2  1
+       7              d                                FL-1.5.2                        27              b     FL-4.5.2
+       8              b                                FL-2.1.1  K2  1                 28              d     FL-4.5.3  K2  1
+       9              b                                FL-2.1.2                        29              a     FL-5.1.3
+      10              a                                FL-2.1.3  K2  1                 30              b     FL-5.1.4  K2  1
+      11              b                                FL-2.1.4                        31              b     FL-5.1.5
+      12              a                                FL-2.2.1  K2  1                 32              d     FL-5.1.7  K2  1
+      13              d                                FL-2.2.3                        33              c     FL-5.2.4
+      14              b                                FL-3.1.3  K1  1                 34              a     FL-5.3.1  K2  1
+      15              c                                FL-3.2.1                        35              a     FL-5.3.3
+      16              d                                FL-3.2.2  K2  1                 36              a     FL-5.4.1  K3  1
+      17              c                                FL-3.2.3                        37              b     FL-5.5.1
+      18              d                                FL-4.1.1  K1  1                 38              c     FL-6.1.1  K2  1
+      19              a                                FL-4.2.1                        39              a     FL-6.2.1
+      20                                                         K1  1                 40                              K3  1
+
+                                                                 K2  1                                                 K3  1
+
+                                                                 K2  1                                                 K2  1
+
+                                                                 K2  1                                                 K2  1
+
+                                                                 K2  1                                                 K1  1
+
+                                                                 K1  1                                                 K2  1
+
+                                                                 K2  1                                                 K2  1
+
+                                                                 K1  1                                                 K3  1
+
+                                                                 K2  1                                                 K2  1
+
+                                                                 K3  1                                                 K1  1
+
+Version 1.7                                                             Page 6 of 37                                   April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Answers
+
+Question  Correct                                    Explanation / Rationale                         Learning   K-Level  Number
+Number    Answer                                                                                     Objective     K2        of
+                   a) Is not correct. It is often possible to use dynamic testing to cause a test
+    (#)       d        object to fail in ways that could never be achieved by the users, such as        (LO)              Points
+     1                 by using fault injection. However, if the failure can never occur with real    FL-1.2.1               1
+                       end users, then identifying it is not especially valuable as testing is
+                       ultimately aimed at improving the work product for the end users.
+                       Spending time testing for failures that cannot occur with real users is not
+                       an efficient use of a tester's time
+
+                   b) Is not correct. Static testing in the form of static analysis is used by
+                       developers to identify defects in their code earlier than can be achieved
+                       through dynamic testing. Note, however, that static testing (and static
+                       analysis) is used to detect defects, not failures, which are found by
+                       dynamic testing. Thus it is the use of the term `failures' that makes this
+                       an incorrect option
+
+                   c) Is not correct. Static analysis directly detects defects in code, and this is
+                       normally information for the developer, not the customer.
+
+                   d) Is correct. Reviews are a form of static testing that can be applied from
+                       the very start of the software development lifecycle and are used to find
+                       defects that can be removed before subsequent development activities
+                       waste effort on faulty requirements. If the defects are not detected and
+                       removed early on, then when the defect is found in derived work
+                       products, such as the design and code, the requirements will need to be
+                       changed.
+
+Version 1.7                                            Page 7 of 37                                             April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale                     Learning   K-Level  Number
+Number    Answer                                                                                 Objective     K1        of
+                   a) Is not correct. QA concentrates on process improvement and
+    (#)       b        implementation, using a preventive approach to avoid errors and              (LO)              Points
+     2                 defects, while testing is a form of QC that is used to detect defects      FL-1.2.2               1
+
+                   b) Is correct. QC aims to achieve appropriate levels of quality by focusing
+                       on identifying and correcting product defects. Testing is a significant
+                       part of QC and helps to uncover these defects
+
+                   c) Is not correct. Although testing is a significant part of QC and helps to
+                       uncover defects, other (non-testing) techniques utilized in QC include
+                       formal methods like model checking and proof of correctness, as well as
+                       simulation and prototyping
+
+                   d) Is not correct. QA concentrates on process improvement and
+                       implementation, using a preventive approach to avoid errors and
+                       defects, while testing is a form of QC that is used to detect defects
+
+Version 1.7                                            Page 8 of 37                                         April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+3  d The `exhaustive testing is impossible' principle is concerned with the fact        FL-1.3.1  K2  1
+
+   that it is not feasible to test every possible variation of inputs in all different
+
+   circumstances, except in trivial cases. Instead, testing utilizes test
+
+   techniques, test case prioritization, and risk-based testing to sample from
+
+   the set of possibilities and focus test efforts.
+
+   a) Is not correct. The principle states that it is not feasible to test everything
+       except in trivial cases. Testing everything would require testing every
+       possible variation of inputs in all different circumstances, which is
+       generally infeasible as there will be a practically infinite number of
+       possibilities. Testing every possible expected result will not address this
+       problem as the relationship between inputs and expected results can be
+       different for each test object. Sometimes there may be a practically
+       infinite number of possible expected results (e.g., when there are
+       several variables representing real numbers), whereas at other times
+       there may be just two expected results, such as with a single variable
+       that can be either true or false
+
+   b) Is not correct. The principle states that it is not feasible to test every
+       possible variation of inputs in all different circumstances. This is
+       because for non-trivial systems there is a practically infinite number.
+       Therefore, in practice, documenting all possible input variations would
+       be impractical as it would take an infinite length of time
+
+   c) Is not correct. Starting testing as early as possible with reviews and
+       other static testing approaches will not address the problem of there
+       being too many possible test cases. The `early testing saves time and
+       money' principle is concerned with fixing defects early on to prevent the
+       occurrence of subsequent defects in derived work products, thereby
+       reducing costs and the likelihood of failures
+
+   d) Is correct. The use of equivalence partitioning and boundary value
+       analysis to generate test cases is one way to address the principle as
+       these test techniques provide a systematic way to derive a finite subset
+       of all possible test cases
+
+Version 1.7                                            Page 9 of 37                                   April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale                        Learning   K-Level  Number
+Number    Answer                                                                                    Objective     K2        of
+                   a) Is correct. Test design involves using test conditions to create test
+    (#)       a        cases and other necessary testware, such as test data requirements              (LO)              Points
+     4                 and test charters for exploratory testing. Test environment requirements      FL-1.4.1               1
+                       are also specified, including the necessary infrastructure and tools
+
+                   b) Is not correct. Test execution involves executing test cases (as part of
+                       test procedures), however it does not directly cover the other testware
+                       mentioned in the question, such as test data requirements, test
+                       environment requirements and test conditions
+
+                   c) Is not correct. Test analysis is used to identify the features that require
+                       testing. The test basis is analyzed and defined as test conditions, which
+                       are then prioritized along with related risks. While this activity involves
+                       working with test conditions, it does not cover the other testware
+                       mentioned in the question, such as test data requirements, test
+                       environment requirements and test cases
+
+                   d) Is not correct. Test implementation includes the generation of test
+                       procedures, such as manual and automated test scripts, which are
+                       created from test cases and may be assembled into test suites. Test
+                       procedures are prioritized and arranged in a test execution schedule.
+                       Test data is created, and the test environment built, and its set up
+                       verified. While this activity involves explicitly working with test cases,
+                       and may use test data requirements and test environment requirements
+                       to create test data and the test environment, it does not cover test
+                       conditions
+
+Version 1.7                                            Page 10 of 37                                           April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale                        Learning   K-Level  Number
+Number    Answer                                                                                    Objective     K2        of
+                   a) Is not correct. The organization's marketing team is unlikely to perform
+    (#)       c        much testing (although in some organizations they may be involved with          (LO)              Points
+     5                 acceptance testing), so their average level of experience (most of which      FL-1.4.2               1
+                       would be in marketing) is not likely to impact how testing is performed
+                       for a given test object
+
+                   b) Is not correct. The level of knowledge of users that a new system is
+                       being built for them is unlikely to affect how testing is performed. Any
+                       user involvement that could affect how testing is performed is more
+                       likely to be as a result of decisions made by the testers, customer and
+                       project manager
+
+                   c) Is correct. The number of years' experience of the members of the
+                       performance efficiency testing team will help to determine the
+                       capabilities and knowledge (e.g., of different tools and defect types) that
+                       the team members will apply when they are testing
+
+                   d) Is not correct. The organizational structure of the different end users
+                       (who may be varied) will change between users. So, it may not even be
+                       known when the application is being tested, and the end user's
+                       organizational structure can thus have little effect on how the testing is
+                       performed
+
+Version 1.7                                            Page 11 of 37                                           April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale                       Learning   K-Level  Number
+Number    Answer                                                                                   Objective     K2        of
+                   a) Is not correct. Traceability between the mitigated risks and test cases
+    (#)       b        that passed provides little information, because to be mitigated (by           (LO)              Points
+     6                 testing) the risks would need to have a corresponding test case that         FL-1.4.4               1
+                       passed. To be able to assess residual risk, traceability between all risks
+                       and test results needs to be available, so that the risks that do not have
+                       a corresponding passing test can be identified as the residual risks
+
+                   b) Is correct. Traceability between user requirements and test results
+                       provides an indication of which user requirements have been tested and
+                       so provides a means of measuring project progress (in the context of
+                       testing) against business goals
+
+                   c) Is not correct. It is not clear that test cases that failed provide an
+                       indication of tester's skills any more than test cases that passed. It
+                       would partly depend on the test objective (e.g., building confidence or
+                       causing failures). Also, such measurement of testers based on test
+                       cases that passed and failed can be counter-productive as it could
+                       cause the testers to optimize their testing based on that metric rather
+                       than the test objective
+
+                   d) Is not correct. Traceability between the identified risks and written test
+                       conditions provides a means of determining which further test conditions
+                       need to be written. Determining which risks are worth testing is part of
+                       risk management, and risk mitigation in particular
+
+Version 1.7                                            Page 12 of 37                                          April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale                      Learning   K-Level  Number
+Number    Answer                                                                                  Objective     K2        of
+                   a) Is not correct. Strong communication skills, active listening, and
+    (#)       b        teamwork abilities enable a tester to interact effectively with all           (LO)              Points
+     7                 stakeholders, however a deep knowledge of a variety of computer             FL-1.5.1               1
+                       games that allowed them to get on well with one developer is not an
+                       example of a generic skill useful to testers
+
+                   b) Is correct. Domain knowledge that can be used to understand and
+                       communicate with end-users and business representatives is one of the
+                       generic skills required by testers. A tester with experience as a pilot
+                       would make them better able to appreciate the acceptance criteria for
+                       the helicopter control system
+
+                   c) Is not correct. Although programming skills could be considered as
+                       technical knowledge which can increase efficiency when utilizing some
+                       test tools, it is unlikely that these skills would improve their
+                       communication with business analysts
+
+                   d) Is not correct. Although thoroughness, attention to detail, curiosity, and
+                       a methodical approach to identifying hard-to-find defects are all useful
+                       generic skills for testers, it is doubtful they would be generating test
+                       cases prior to starting exploratory testing. This is because one of the
+                       main tenets of exploratory testing is that the test cases are generated
+                       during the testing, not scripted in advance
+
+Version 1.7                                            Page 13 of 37                                         April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale                      Learning   K-Level  Number
+Number    Answer                                                                                  Objective     K1        of
+                   a) Is not correct. The whole-team approach allows any team member with
+    (#)       d        the requisite skills and knowledge to undertake any task, however that        (LO)              Points
+     8                 does not mean that team members can take on any role at any time.           FL-1.5.2               1
+                       Typically, they only take on roles in which they are competent, and there
+                       is no suggestion that every team member can do every role
+
+                   b) Is not correct. The whole-team approach applies to how a single team
+                       (typically in Agile software development) works; it does not cover how
+                       multiple teams are supposed to work on larger projects, and it does not
+                       suggest that only one `whole' team is needed for a complete project
+
+                   c) Is not correct. The whole-team approach does not expect every team
+                       member to be involved in every important decision. For instance, there
+                       is no need for the business representative (i.e., the Product Owner) to
+                       be involved in every technical decision that does not affect the business
+                       outcome and implementing such an approach would unnecessarily slow
+                       down the team's progress
+
+                   d) Is correct. By leveraging the diverse skill sets of each team member
+                       most effectively, the whole-team approach fosters superior team
+                       dynamics, promotes robust communication and collaboration, and
+                       generates a team synergy that benefits the entire project
+
+Version 1.7                                            Page 14 of 37                                         April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale                          Learning   K-Level  Number
+Number    Answer                                                                                      Objective     K2        of
+                   a) Is not correct. In agile software development, deliverables are produced
+    (#)       b        in each iteration, and the frequent delivery of increments necessitates           (LO)              Points
+     9                 extensive regression testing. Although some (or all) of this regression         FL-2.1.1               1
+                       testing may be automated, the regression testing (automated or not)
+                       cannot be replaced by automation of system tests
+
+                   b) Is correct. If a sequential development model is used, then early in the
+                       software development lifecycle no code is available for execution, and
+                       so during this time static testing (e.g., reviews) is performed. Later in the
+                       lifecycle, when code is available for execution, dynamic testing is
+                       possible. Note, however, that preparation for dynamic testing will often
+                       occur early in any software development lifecycle
+
+                   c) Is not correct. If an iterative development model, like agile software
+                       development, is used, then component tests may well be used for
+                       regression testing for each iteration. In which case, there is a strong
+                       argument for automating these component tests, which will have to be
+                       run frequently, and there is unlikely to be a strong argument for
+                       developers performing these component tests manually
+
+                   d) Is not correct. In most incremental development models, deliverables
+                       are produced in each increment, requiring both static testing and
+                       dynamic testing at all test levels for each increment delivered
+
+Version 1.7                                            Page 15 of 37                                             April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale                       Learning   K-Level  Number
+Number    Answer                                                                                   Objective     K1        of
+                   a) Is not correct. Testers should review work products as soon as drafts
+    (#)       b        are available to enable early testing as part of a shift-left approach. If     (LO)              Points
+    10                 they waited until the next development phase, then unnecessary               FL-2.1.2               1
+              a        development (and test) work could be started on unreviewed, flawed
+    11                 work products                                                               FL-2.1.3   K1       1
+
+                   b) Is correct. Testers should review work products as soon as drafts are
+                       available to enable early testing as part of a shift-left approach
+
+                   c) Is not correct. Testers typically review work products that form the test
+                       basis as part of test analysis, not before test analysis and test design
+
+                   d) Is not correct. Testers should review work products as soon as drafts
+                       are available to enable early testing as part of the shift-left approach.
+                       Waiting until they are published means that any defects that could be
+                       found by tester's review will be in the published document
+
+                   a) Is correct. Test-Driven Development (TDD) is a well-known example of
+                       a test-first approach to development
+
+                   b) Is not correct. Coverage-Driven Development is not a correct example
+                       of a test-first approach to development
+
+                   c) Is not correct. Quality-Driven Development is not a correct example of a
+                       test-first approach to development
+
+                   d) Is not correct. Feature-Driven Development is not an example of a test-
+                       first approach to development, but is, instead, an agile software
+                       development methodology based around delivering features (as
+                       opposed to user stories in Scrum)
+
+Version 1.7                                            Page 16 of 37                                              April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale                      Learning   K-Level  Number
+Number    Answer                                                                                  Objective     K2        of
+                   a) Is not correct. DevOps enhances testing in several ways, such as by
+    (#)       b        providing fast feedback on code quality, automated regression testing         (LO)              Points
+    12                 that minimizes regression risk, and promoting a shift-left approach with    FL-2.1.4               1
+                       high-quality code submission and component tests. This is largely
+                       provided through continuous integration, where the developers submit
+                       component (unit) tests with their new code, which must pass for the
+                       code to be admitted to the build. Therefore, developers do need to
+                       complete component testing
+
+                   b) Is correct. DevOps enhances testing in several ways, such as by
+                       providing fast feedback on code quality, automated regression testing
+                       that minimizes regression risk, and promoting a shift-left approach with
+                       high-quality code submission and component tests
+
+                   c) Is not correct. DevOps enhances testing in several ways, such as by
+                       providing fast feedback on code quality, automated regression testing
+                       that minimizes regression risk, and promoting a shift-left approach with
+                       high-quality code submission and component tests. Testers do not
+                       attempt to treat developers and operations equally by spending more
+                       time on release testing, although a shift-right approach to testing
+                       (testing in production) may well be used
+
+                   d) Is not correct. Automated processes like continuous
+                       integration/continuous delivery (CI/CD) in DevOps facilitate stable test
+                       environments and reduce the need for manual testing, however, there is
+                       a risk of overlooking the importance of manual testing, especially from a
+                       user's perspective
+
+Version 1.7                                            Page 17 of 37                                         April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale                      Learning   K-Level  Number
+Number    Answer                                                                                  Objective     K2        of
+                   a) Is correct. System testing examines the behavior and capabilities of the
+    (#)       a        complete system and covers non-functional testing of quality                  (LO)              Points
+    13                 characteristics, which includes security testing. This type of testing is   FL-2.2.1               1
+              d        often performed by an independent test team based on system
+    14                 specifications                                                              FL-2.2.3  K2       1
+
+                   b) Is not correct. System integration testing examines the interfaces with
+                       other systems and external services
+
+                   c) Is not correct. Beta testing is a type of acceptance testing performed at
+                       an external site by roles outside the development organization
+
+                   d) Is not correct. Component integration testing involves testing the
+                       (interfaces and) interactions between components of a system, such as
+                       the user interface and database
+
+                   a) Is not correct. Regression tests increase in number as the project
+                       progresses, as new regression tests are typically required as changes
+                       are made to the system. Similarly, the number of confirmation tests also
+                       typically increases as the project progresses as new confirmation tests
+                       are needed for each fix made to a system
+
+                   b) Is not correct. It is the other way round. Confirmation tests are created
+                       and run when the test object is fixed, and regression tests are (ideally)
+                       run whenever the test object is enhanced (changed)
+
+                   c) Is not correct. Confirmation testing verifies that a defect has been fixed
+                       correctly and so is concerned with testing changes to the test object.
+                       However, regression testing ensures that changes (including changes to
+                       the operational environment) do not have negative effects on
+                       unchanged software and so does not check that the operational
+                       environment remains unchanged
+
+                   d) Is correct. Regression testing ensures that changes do not have
+                       negative effects on unchanged software. Confirmation testing verifies
+                       that a defect has been fixed ­ and so is concerned with changed code
+
+Version 1.7                                            Page 18 of 37                                             April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale                         Learning   K-Level  Number
+Number    Answer                                                                                     Objective     K2        of
+                   a) Is not correct. A lack of usability provided through the user interface can
+    (#)       b        be detected through a review using a suitable checklist, but the lack of         (LO)              Points
+    15                 usability can also be identified by getting several typical users to           FL-3.1.3               1
+                       dynamically test the user interface and provide feedback on its usability
+
+                   b) Is correct. A code review can detect code that cannot be reached by
+                       any path, however dynamic tests can only exercise reachable code and
+                       cannot determine that code cannot be reached without running every
+                       possible combination of inputs and input states, which is impractical for
+                       real code
+
+                   c) Is not correct. Poor response times for most of the expected users are
+                       difficult to determine without executing the code (i.e., by static testing),
+                       so in this situation dynamic testing could find a defect, but static testing
+                       is unlikely to find it
+
+                   d) Is not correct. A review of the code by someone who is aware of the
+                       required features could detect that the required features had not been
+                       implemented in the code, and dynamic testing could also be used to
+                       determine that these required features had not been implemented
+
+Version 1.7                                            Page 19 of 37                                            April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale                     Learning   K-Level  Number
+Number    Answer                                                                                 Objective     K1        of
+                   a) Is not correct. The feedback is from stakeholders (e.g., business
+    (#)       c        representatives and end users), not from developers, so this feedback is     (LO)              Points
+    16                 not likely to inform managers which developers are more or less            FL-3.2.1               1
+                       productive
+
+                   b) Is not correct. Early and frequent feedback from stakeholders is not
+                       used by project managers to prioritize how they interact with the
+                       different stakeholders
+
+                   c) Is correct. Obtaining feedback from stakeholders early and often in the
+                       software development process can be highly beneficial as it facilitates
+                       early communication of potential quality issues, can prevent
+                       misunderstandings about requirements, and ensures that any changes
+                       in stakeholder requirements are understood and implemented sooner
+
+                   d) Is not correct. Early and frequent feedback can prevent the
+                       development of a product that does not meet stakeholder needs, and
+                       results in costly rework and missed deadlines, so, ideally there should
+                       be no delay. Also, the feedback is from stakeholders (not to them),
+                       which includes the end users, so the end users providing feedback will
+                       not aid the end users' understanding
+
+Version 1.7                                            Page 20 of 37                                        April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale                         Learning   K-Level  Number
+Number    Answer                                                                                     Objective     K2        of
+                   Considering each of the listed task descriptions:
+    (#)       d            1. The quality characteristics to be evaluated and the exit criteria are     (LO)              Points
+    17                          selected - (Planning (C): Defining the review scope, purpose,         FL-3.2.2               1
+                                work product to be reviewed, quality characteristics to be
+                                evaluated, areas of focus, exit criteria, supporting information
+                                such as standards, effort, and timeframes.)
+                           2. Everyone has access to the work product - (Review initiation (B):
+                                Ensuring all participants have access to the work product and
+                                necessary resources, and clarifying their roles and
+                                responsibilities.)
+                           3. Anomalies are identified in the work product - (Individual review
+                                (A): Evaluating the work product's quality, identifying and logging
+                                anomalies, recommendations, and questions using review
+                                techniques like checklist-based reviewing and scenario-based
+                                reviewing.)
+                           4. Anomalies are analyzed and discussed - (Communication and
+                                analysis (D): Analyzing and discussing each anomaly,
+                                determining its status, ownership, and required actions, and
+                                making review decisions, normally in a meeting. This could
+                                include determining the need for a follow-up review.)
+
+                   Thus:
+                   a) Is not correct
+                   b) Is not correct
+                   c) Is not correct
+                   d) Is correct. The correct match is: 1C, 2B, 3A, 4D
+
+Version 1.7                                            Page 21 of 37                                            April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale                       Learning   K-Level  Number
+Number    Answer                                                                                   Objective     K1        of
+                   Considering each of the listed roles:
+    (#)       c            1. Scribe (or Recorder) - responsible for gathering feedback from          (LO)              Points
+    18                          reviewers and documenting review information, such as decisions     FL-3.2.3               1
+                                made, and any new anomalies identified during the review
+                                meeting. (Records review information, such as decisions and new
+                                anomalies found during the review meeting - B)
+                           2. Review Leader - responsible for overseeing the review process,
+                                such as selecting the review team members, scheduling review
+                                meetings, and ensuring that the review is completed successfully.
+                                (Takes overall responsibility for the review such as organizing
+                                when and where the review will take place - D)
+                           3. Facilitator (or Moderator) - responsible for ensuring that the
+                                review meetings run effectively, including managing time,
+                                mediating discussions, and creating a safe environment where
+                                everyone can voice their opinions freely. (Ensures the effective
+                                running of review meetings and the setting up of a safe review
+                                environment - A)
+                           4. Manager - responsible for deciding what needs to be reviewed
+                                and allocating resources, such as staff and time, for the review.
+                                (Decides what is to be reviewed and provides resources, such as
+                                staff and time for the review - C)
+
+                   Thus:
+                   a) Is not correct
+                   b) Is not correct
+                   c) Is correct. The correct match is: 1B, 2D, 3A, 4C
+                   d) Is not correct
+
+Version 1.7                                            Page 22 of 37                                          April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale                        Learning   K-Level  Number
+Number    Answer                                                                                    Objective     K2        of
+                   a) Is not correct. Decision table testing is a black-box test technique, not a
+    (#)       d        white-box test technique ­ the test cases are not based on the decisions        (LO)              Points
+    19                 in the source code. In branch testing, the test cases are derived from        FL-4.1.1               1
+                       knowledge of the control flow of the test object
+
+                   b) Is not correct. Anticipation of potential defects is used in error guessing
+                       (an experience-based test technique), not in branch testing (a white-box
+                       test technique). In decision table testing, the test cases are derived from
+                       the specification that describes the business logic
+
+                   c) Is not correct. If a test case is based on the knowledge of the control
+                       flow of the test object, it is a white-box test technique. Decision table
+                       testing is typically based on an analysis of business logic, so it is a
+                       black-box test technique. In branch testing, test cases are not derived
+                       from the specification ­ this would make it a black-box test technique.
+                       Branch testing is a white-box test technique, where test cases are
+                       derived based on the source code structure
+
+                   d) Is correct. Decision table testing is a black-box test technique, so it is
+                       based on an analysis of the specified behavior of the test object without
+                       reference to its internal structure. Therefore, the test cases are
+                       independent of how the software is implemented. Branch testing is a
+                       white-box test technique, so test cases are based on an analysis of the
+                       test object's internal structure and processing. As the test cases are
+                       dependent on how the software is designed and coded, they can only
+                       be created after the design or implementation of the test object
+
+Version 1.7                                            Page 23 of 37                                           April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale                       Learning   K-Level  Number
+Number    Answer                                                                                   Objective     K3        of
+                   a) Is correct. 19 covers the "no discount" partition, 20 covers the "50%
+    (#)       a        discount" partition, and 30 covers the "10% discount" partition. These         (LO)              Points
+    20                 three values cover all three of the valid equivalence partitions             FL-4.2.1               1
+
+                   b) Is not correct. 11 and 12 cover the "no discount" partition, while 20
+                       covers the "50% discount" partition, so covering two of the three valid
+                       equivalence partitions
+
+                   c) Is not correct. 1 covers the "no discount" partition, while 10 and 50 cover
+                       the "10% discount" partition. The "50% discount" partition is not
+                       covered, so overall two of the three valid equivalence partitions are
+                       covered
+
+                   d) Is not correct. 29 and 31 cover the "no discount" partition, while 10 and
+                       30 cover the "10% discount" partition. The "50% discount" partition is
+                       not covered, so overall two of the three valid equivalence partitions are
+                       covered
+
+Version 1.7                                            Page 24 of 37                                          April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale               Learning   K-Level  Number
+Number    Answer                                                                           Objective     K3        of
+                   The domain for the password length has three equivalence partitions:
+    (#)       d            · passwords too short {0, 1, ..., 4, 5}                            (LO)              Points
+    21                     · passwords OK {6, 7, ..., 11, 12}                               FL-4.2.2               1
+                           · passwords too long {13, 14, ...}
+
+                   To achieve full coverage for 3-value BVA we need to test the following
+                   values:
+
+                                0, 1, 4, 5, 6, 7, 11, 12, 13, 14.
+
+                   Since 2-value BVA is already covered, this means that we have already
+                   tested the passwords of length:
+
+                                0, 5, 6, 12 and 13.
+
+                   This means that the additional lengths that need to be covered to move
+                   from 2-value to 3-value are:
+
+                                1, 4, 7, 11 and 14.
+
+                   Thus:
+                   a) Is not correct
+                   b) Is not correct
+                   c) Is not correct
+                   d) Is correct
+
+Version 1.7                                            Page 25 of 37                                  April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale                   Learning   K-Level  Number
+Number    Answer                                                                               Objective     K3        of
+                   There are five columns in the decision table. Each test case covers one of
+    (#)       b    them.                                                                          (LO)              Points
+    22                                                                                          FL-4.2.3               1
+                                TC1 and TC2 both cover Rule 4
+                                TC3 and TC4 both cover Rule 2
+                                TC5 covers Rule 5
+                   So, these five test cases cover three out of five columns, achieving a
+                   coverage of (3/5)*100% = 60%. Therefore, option b) is the CORRECT
+                   option.
+
+                   Thus:
+                   a) Is not correct
+                   b) Is correct
+                   c) Is not correct
+                   d) Is not correct
+
+Version 1.7                                            Page 26 of 37                                      April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+23  c                                                                                       FL-4.2.4  K3  1
+
+       Let us refer to the transitions with E1, ..., E5 as in the picture. The variable
+       N denotes the number of elements currently stored. Each "Add" event
+       increases it by 1, and each "Remove" event decreases it by 1. Notice, that
+       when the "Add" event occurs while being in the NOT FULL state, the state
+       changes to FULL only if N=2. If N<2, the system stays in the NOT FULL
+
+       state. If N=0, no "Remove" action is possible. Similarly, if N=3, no "Add"
+       action is possible.
+
+                    Test a) can be written as E1, E3, E3, E2, E4 (so covers 4 out of 5
+
+                    valid transitions, achieving 80% valid transitions coverage).
+
+                    Test b) is infeasible, because after the first three "Add" actions the
+                    system is in the FULL state and there is no valid transition going
+
+                    from FULL triggered by the "Add" event. After the first three
+                    transitions only 60% of valid transitions coverage is achieved.
+
+                    Test c) can be written as E1, E2, E4, E5, E3 (so covers 5 out of 5
+
+                    valid transitions, achieving 100% valid transitions coverage).
+
+                    Test d) can be written as E1, E2, E4, E5, E4 (so covers 4 out of 5
+
+                    valid transitions, achieving 80% valid transitions coverage).
+
+                              Thus:                    Page 27 of 37                                      April 1, 2025
+                              a) Is not correct
+                              b) Is not correct
+                              c) Is correct
+                              d) Is not correct
+
+Version 1.7
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale                       Learning   K-Level  Number
+Number    Answer                                                                                   Objective     K2        of
+                   a) Is not correct. Coverage is always defined as the percentage of the
+    (#)       b        covered elements. Therefore, it cannot exceed 100%                             (LO)              Points
+    24                                                                                              FL-4.3.1               1
+                   b) Is correct. If the statements executed by T1 and T2 were disjoint, the
+                       coverage of the test suite {T1, T2} would be 105%, which is impossible
+                       (see answer a). Therefore, at least 5% of executable statements must
+                       have been executed by both T1 and T2
+
+                   c) Is not correct. Statement coverage does not tell us anything about the
+                       number of non-executable statements in the code
+
+                   d) Is not correct. Even if a test suite achieves full statement coverage, this
+                       does not imply achieving full branch coverage
+
+Version 1.7                                            Page 28 of 37                                          April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale                         Learning   K-Level  Number
+Number    Answer                                                                                     Objective     K2        of
+                   Branch testing is a white-box test technique in which the coverage items are
+    (#)       c    branches. A branch is a transfer of control between two nodes in the control         (LO)              Points
+    25             flow graph, which shows the possible sequences in which source code                FL-4.3.2               1
+                   statements are executed in the test object. Each transfer of control can be
+                   either unconditional (i.e., straight-line code) or conditional (i.e., a decision
+                   outcome). Coverage is measured as the number of branches exercised by
+                   the test cases divided by the total number of branches, and is expressed as
+                   a percentage.
+
+                   Thus:
+                   a) Is not correct. A decision outcome is a conditional branch. For branch
+
+                       testing, X counts not only conditional, but also unconditional branches
+                   b) Is not correct. Branch coverage counts not only conditional, but also
+
+                       unconditional branches
+                   c) Is correct. Branch coverage is measured as the number of branches
+
+                       exercised by the test cases divided by the total number of branches,
+                       and is expressed as a percentage
+                   d) Is not correct. Both X and Y count only conditional branches and do not
+                       take into account the unconditional branches
+
+Version 1.7                                            Page 29 of 37                                            April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale                     Learning   K-Level  Number
+Number    Answer                                                                                 Objective     K2        of
+                   Exploratory testing is useful when there are few or inadequate
+    (#)     a, e   specifications or there is significant time pressure on the testing.             (LO)              Points
+    26             Exploratory testing is also useful to complement other more formal test        FL-4.4.2               1
+                   techniques. Exploratory testing will be more effective if the tester is
+                   experienced, has domain knowledge and has a high degree of essential
+                   skills, like analytical skills, curiosity and creativeness.
+
+                   Thus:
+                   a) Is correct. Exploratory testing is useful when there are few or
+
+                       inadequate specifications or there is significant time pressure on the
+                       testing
+                   b) Is not correct. Exploratory testing is not a black-box test technique
+                   c) Is not correct. Exploratory testing is useful when the specifications are
+                       poorly written
+                   d) Is not correct. Programming skills have nothing to do with exploratory
+                       testing in principle
+                   e) Is correct. Exploratory testing will be more effective if the tester is
+                       experienced, has domain knowledge and has a high degree of essential
+                       skills, like analytical skills, curiosity and creativeness
+
+Version 1.7                                            Page 30 of 37                                        April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale                       Learning   K-Level  Number
+Number    Answer                                                                                   Objective     K2        of
+                   a) Is not correct. Checklists should contain test conditions to be verified.
+    (#)       d        This is an example of an error, not a test condition; even if the tester       (LO)              Points
+    27                 was able to deduce some potential test conditions from the examples of       FL-4.4.3               1
+              b        errors, this error description is too general
+    28                                                                                              FL-4.5.2  K2       1
+              d    b) Is not correct. Checklists should not contain items that are better suited
+    29                 as exit criteria. This is an example of an exit criterion                    FL-4.5.3  K3       1
+
+                   c) Is not correct. Checklists should not contain items that are too general.
+                       This is a very general item, which practically describes a test objective
+
+                   d) Is correct. This is an example of a test condition that can be checked by
+                       a human
+
+                   a) Is not correct. The rule-oriented format includes formats like bullet point
+                       verification lists or tabulated forms of input-output mappings, explicitly
+                       showing the rules to be followed. Given/When/Then is a scenario-
+                       oriented format because it describes a scenario to be verified
+
+                   b) Is correct. This is a Given/When/Then format, which is scenario-oriented
+                   c) Is not correct. There is no "product-oriented" format of acceptance
+
+                       criteria
+                   d) Is not correct. There is no "process-oriented" format of acceptance
+
+                       criteria
+                   a) Is not correct. The test case is related to viewing previous orders in the
+
+                       order history
+                   b) Is not correct. The test case is related to viewing previous orders
+                   c) Is not correct. The test case is related to viewing previous orders in the
+
+                       order history
+                   d) Is correct. The test case is related to the registration process, which is
+
+                       not discussed in the user story. The user story is about viewing previous
+                       orders
+
+Version 1.7                                            Page 31 of 37                                              April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale                     Learning   K-Level  Number
+Number    Answer                                                                                 Objective     K2        of
+                   a) Is correct. This is something that can (and should) be checked before
+    (#)       a        the code is submitted to version control                                     (LO)              Points
+    30                                                                                            FL-5.1.3               1
+              b    b) Is not correct. This is something that can be checked after step (2) is
+    31                 performed, because merge conflict reporting can be done after the code     FL-5.1.4  K3       1
+                       is submitted and merged
+
+                   c) Is not correct. This fits better as the entry criterion for step (3)
+                   d) Is not correct. This fits better as the exit criterion for step (3)
+                   The average development effort is $900,000 and the average test effort is
+                   $90,000 (calculated from the four projects).
+                   The average test-to-development effort ratio is 1:10 ($90,000 : $900,000),
+                   which means that historically, on average, the test effort is 10% of the
+                   development effort.
+                   So if the development effort is estimated to be $800,000, the estimated test
+                   effort is estimated as:
+
+                                10% * $800,000 = 0.1 * $800,000 = $80,000.
+
+                   Thus:
+                   a) Is not correct
+                   b) Is correct
+                   c) Is not correct
+                   d) Is not correct
+
+Version 1.7                                            Page 32 of 37                                            April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale                     Learning   K-Level  Number
+Number    Answer                                                                                 Objective     K3        of
+                   The logical dependencies mean that for each product you have to run
+    (#)       b    SEARCH  VIEW  ADD before running ORDER. You can add more                         (LO)              Points
+    32             products (using the same flow), before you run ORDER.                          FL-5.1.5               1
+                   Based on this, TC1 or TC2 must be executed first, otherwise no progress
+                   can be made.
+                   The first priority should be given to VIEW and ADD product B, as its test
+                   cases (TC6, TC4) are assigned with higher priority.
+                   So, the first 3 tests to execute are TC2 -> TC4 -> TC6
+
+                   Now we need to consider whether to run TC7 and then the entire flow for
+                   product A or run the TCs for product A first. If TC7 has lower priority than
+                   the other tests, they should be tested first.
+                   Therefore, the entire flow should be:
+                   TC2 -> TC4 -> TC6 -> TC1 -> TC3 -> TC5 -> TC7
+
+                   a) Is not correct. TC1 must be executed before TC3
+
+                   b) Is correct
+
+                   c) Is not correct. As shown above, TC7 is the last to be executed.
+
+                   d) Is not correct. Product B must be executed before product A
+
+33        d a) Is not correct. Usability testing is business facing testing that critiques       FL-5.1.7   K2       1
+
+                   the product (Q3)
+
+                   b) Is not correct. Functional testing is business facing testing (Q2)
+
+                   c) Is not correct. User acceptance testing is business facing testing that
+
+                   critiques the product (Q3)
+
+                   d) Is correct. Component integration testing is technology facing testing
+
+                   that supports the team (guides the development) (Q1)
+
+Version 1.7                                            Page 33 of 37                                            April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale                       Learning   K-Level  Number
+Number    Answer                                                                                   Objective     K2        of
+                   Considering each of the listed risks and their mitigations:
+    (#)       c            1. Long system responses (1) can be tested in performance testing          (LO)              Points
+    34                          (B)                                                                 FL-5.2.4               1
+                           2. Changes in consumers' preferences (2) are usually out of our
+                                control, so usually we accept this risk (A)                         FL-5.3.1
+                           3. Flooding of the server room (3) can cause significant loss, so we
+                                should transfer the risk, e.g., by buying an insurance policy (D)
+                           4. That patients above a certain age receive inaccurate reports (4)
+                                suggests a potential boundary problem, which can be effectively
+                                detected with test techniques like BVA (C)
+
+                   Thus:
+
+                   a) Is not correct
+
+                   b) Is not correct
+
+                   c) Is correct. The correct combinations of risk and mitigation are: 1B, 2A,
+
+                   3D and 4C
+
+                   d) Is not correct
+
+35        a a) Is correct. Product quality metrics measure quality characteristics. Mean                      K1       1
+
+                   time to failure measures maturity, so it is a product quality metric
+
+                   b) Is not correct. This is an example of a defect metric, not a product
+
+                   quality metric
+
+                   c) Is not correct. This is an example of a coverage metric, not a product
+
+                   quality metric
+
+                   d) Is not correct. This is an example of a defect metric, not a product
+
+                   quality metric
+
+Version 1.7                                            Page 34 of 37                                              April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale                      Learning   K-Level  Number
+Number    Answer                                                                                  Objective     K2        of
+                   a) Is correct. The client is in a different location and time zone, so it may
+    (#)       a        be difficult to communicate face-to-face                                      (LO)              Points
+    36                                                                                             FL-5.3.3               1
+              a    b) Is not correct. Dashboards are usually available to any user at any time,
+    37                 so the difference in time zones will not be as much of a hindrance to       FL-5.4.1  K2       1
+                       communication as verbal, face-to-face communication
+
+                   c) Is not correct. Although the time difference between Europe and
+                       America is several hours, and this may cause some inconvenience, it's
+                       certainly not as great as with communicating face-to-face
+
+                   d) Is not correct. Video conferencing tools are a convenient means of
+                       communication. Although communication between Europe and America
+                       during working hours usually requires one party to connect in the very
+                       early or very late hours, this is not as much of an inconvenience as
+                       verbal, face-to-face communication
+
+                   a) Is correct. For a complex configuration item (e.g., a test environment),
+                       configuration management (CM) records the items it consists of, their
+                       relationships, and versions
+
+                   b) Is not correct. CM tools do not execute test cases and do not calculate
+                       coverage
+
+                   c) Is not correct. A CM tool is not a licensed management tool
+                   d) Is not correct. CM tools do not generate test data
+
+Version 1.7                                            Page 35 of 37                                             April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale                         Learning   K-Level  Number
+Number    Answer                                                                                     Objective     K3        of
+                   a) Is not correct. While the sentence is true, it does not provide much value
+    (#)       b        for the developer                                                                (LO)              Points
+    38                                                                                                FL-5.5.1               1
+              c    b) Is correct. From the test results it seems that the system ignores
+    39                 duplicates and sorts the list disregarding the repetitions. This is probably   FL-6.1.1  K2       1
+                       the cause of failures in TC3, TC4, TC5. Such information may help the
+                       developer to find the defect and fix it more efficiently
+
+                   c) Is not correct. The system does not fail in sorting negative numbers.
+                       The problem is rather in disregarding duplicates
+
+                   d) Is not correct. The test cases TC3, TC4 and TC5 fail, but we aren't
+                       aware that the test cases have any defects
+
+                   Considering each of the listed tool categories and their descriptions:
+                           A. Static testing tools ­ support the tester in performing reviews and
+                                static analysis (4)
+                           B. Tools supporting scalability and deployment standardization ­ For
+                                example, virtual machines, containerization tools (3)
+                           C. DevOps tools ­ support the DevOps delivery pipeline, workflow
+                                tracking, automated build process(es), continuous
+                                integration/continuous delivery (CI/CD) (1)
+                           D. Collaboration tools ­ facilitate communication (2)
+
+                   Thus:
+                   a) Is not correct
+                   b) Is not correct
+                   c) Is correct. The correct match is: 1C, 2D, 3B, 4A
+                   d) Is not correct
+
+Version 1.7                                            Page 36 of 37                                                April 1, 2025
+
+© International Software Testing Qualifications Board
+Certified Tester, Foundation Level
+Sample Exam set B
+Sample Exam ­ Answers
+
+Question  Correct                                    Explanation / Rationale                          Learning   K-Level  Number
+Number    Answer                                                                                      Objective     K1        of
+                   a) Is correct. Test automation can provide measures that are too
+    (#)       a        complicated for humans to derive, such as white-box testing coverage              (LO)              Points
+    40                 measures for all but the most trivial code                                      FL-6.2.1               1
+
+                   b) Is not correct. By using test tools, the responsibility for the testing is
+                       NOT shared with the tool vendor as the vendor is not involved in the
+                       testing, and it is the tester's responsibility. The only possible
+                       responsibility that could be assigned to the tool vendor is if the tool fails
+                       to work as expected and provides incorrect test results
+
+                   c) Is not correct. Testers still need to apply critical thinking when analyzing
+                       anomalies in the test results to determine their likely cause
+
+                   d) Is not correct. Neither testers nor tools can generate test cases simply
+                       from an analysis of the program code as the code is the implementation
+                       and provides no information on the expected results, which will need to
+                       come from another part of the test basis, such as the design
+                       specification
+
+Version 1.7                                            Page 37 of 37                                             April 1, 2025
+
+© International Software Testing Qualifications Board
+
